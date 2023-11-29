@@ -20,6 +20,11 @@ html {
     border-radius: 100px;
 }
 
+#members .socials {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
 #projects {
     column-gap: 25px;
 }
@@ -50,18 +55,18 @@ html {
     font-size: .8em;
 }
 
-a {
-    color: aquamarine;
-}
-
-.warnings {
+#projects .warnings {
     margin-top: 10px;
     column-gap: 10px;
 }
 
-.content-warning {
+#projects .content-warning {
     background-color: darkred;
     color: #ccc;
     border-radius: 10px;
     padding: 5px;
+}
+
+a {
+    color: aquamarine;
 }

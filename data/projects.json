@@ -35,8 +35,8 @@
 
     "members": [
         "Fractal",
-        "Yume",
-        "MayaEnMallas"
+        "MayaEnMallas",
+        "Yume"
     ]
 }, {
     "name": "Succ-Ciety",
@@ -55,6 +55,7 @@
 
     "members": [
         "Fractal",
+        "SukeBancho",
         "Yume",
         "Zirk"
     ]

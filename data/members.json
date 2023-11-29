@@ -1,13 +1,33 @@
 [{
     "name": "Fractal",
-    "image": "fractal.png"
+    "image": "fractal.png",
+    "socials": [{
+        "name": "twitter",
+        "link": "twitter.com/FractalStella"
+    }]
 }, {
     "name": "MayaEnMallas",
-    "image": "maya.png"
+    "image": "maya.png",
+    "socials": []
+}, {
+    "name": "SukeBancho",
+    "image": "suke.jpg",
+    "socials": [{
+        "name": "twitter",
+        "link": "https://twitter.com/SukeBanchoR18"
+    }]
 }, {
     "name": "Yume",
-    "image": "yume.png"
+    "image": "yume.png",
+    "socials": [{
+        "name": "twitter",
+        "link": "https://twitter.com/FragantPauline"
+    }]
 }, {
     "name": "Zirk",
-    "image": "zirk.png"
+    "image": "zirk.png",
+    "socials": [{
+        "name": "website",
+        "link": "https://zirk.eu"
+    }]
 }]

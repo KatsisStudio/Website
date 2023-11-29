@@ -17,10 +17,10 @@
                 <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
             </div>
             {% for d in project.download %}
-            <a class="button" href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
+            <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
             {% endfor %}
             {% for link in project.links %}
-            <a class="button" href="{{ link.content }}">{{ link.name }}</a>
+            <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
             {% endfor %}
             <div class="flex warnings">
                 {% for warn in project.contentWarnings %}
@@ -39,6 +39,17 @@
         <div>
             <h3>{{ member.name }}</h3>
             <img src="data/members/{{ member.image }}" width="100" height="100"/>
+            <div class="flex socials">
+                {% for so in member.socials %}
+                <a href="{{ so.link }}" target="_blank">
+                {% if so.name == "twitter" %}
+                <i class="fa-brands fa-twitter"></i>
+                {% else %}
+                <i class="fa-solid fa-globe"></i>
+                {% endif %}
+                </a>
+                {% endfor %}
+            </div>
         </div>
     {% endfor %}
     </div>
