@@ -1,13 +1,13 @@
 [{
     "name": "Fractal",
-    "image": "https://cdn.discordapp.com/attachments/984519659145527406/1179462077077790830/4.png"
+    "image": "fractal.png"
 }, {
     "name": "MayaEnMallas",
-    "image": ""
+    "image": "maya.png"
 }, {
     "name": "Yume",
-    "image": "https://cdn.discordapp.com/attachments/984519659145527406/1179464330505371688/Ichi_huh.png"
+    "image": "yume.png"
 }, {
     "name": "Zirk",
-    "image": "https://cdn.discordapp.com/attachments/984519659145527406/1179464556473495552/Untitled.jpeg"
+    "image": "zirk.png"
 }]
