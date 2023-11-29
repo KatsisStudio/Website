@@ -13,12 +13,13 @@ html {
 }
 
 #members > div {
-    width: 30%;
+    width: 500px;
 }
 
 #members img {
     border-radius: 100px;
 }
-a{
+
+a {
     color: aquamarine;
 }
