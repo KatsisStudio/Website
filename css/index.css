@@ -20,6 +20,23 @@ html {
     border-radius: 100px;
 }
 
+#projects div {
+    width: 400px;
+}
+
+#projects h3 {
+    height: 20px;
+}
+
+#projects p {
+    height: 50px;
+}
+
+#projects img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
 a {
     color: aquamarine;
 }

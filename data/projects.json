@@ -1,0 +1,31 @@
+[{
+    "name": "Cute Sound Effects",
+    "description": "Free Text SFX for Clip Studio Paint Pro/Ex",
+    "type": "asset",
+    "contentWarnings": [],
+
+    "baseFolder": "CuteSoundEffects",
+    "preview": "preview.jpeg",
+
+    "download": [
+        "text.clip"
+    ],
+    "links": [{
+        "name": "Clip Studio",
+        "content": "https://assets.clip-studio.com/en-us/detail?id=1990655"
+    }]
+}, {
+    "name": "My Wife Is A Cuck Quean",
+    "description": "",
+    "type": "comic",
+    "contentWarnings": [ "Cuckquean", "Reverse NTR" ],
+
+    "baseFolder": "MyWifeIsACuckQuean",
+    "preview": "preview.jpg",
+
+    "download": [],
+    "links": [{
+        "name": "Read",
+        "content": "https://mwiaq.uwu.ai/"
+    }]
+}]
