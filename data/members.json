@@ -6,9 +6,12 @@
         "link": "https://twitter.com/FractalStella"
     }]
 }, {
-    "name": "MayaEnMallas",
+    "name": "EnMallas",
     "image": "maya.png",
-    "socials": []
+    "socials": [{
+        "name": "twitter",
+        "link": "https://twitter.com/EnMallas"
+    }]
 }, {
     "name": "SukeBancho",
     "image": "suke.jpg",
