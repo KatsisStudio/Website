@@ -1,0 +1,21 @@
+html {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(30, 30, 30);
+    color: #ccc;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+#members > div {
+    width: 30%;
+}
+
+#members img {
+    border-radius: 100px;
+}
