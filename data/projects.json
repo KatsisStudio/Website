@@ -1,6 +1,6 @@
 [{
     "name": "Cute Sound Effects",
-    "description": "Free Text SFX for Clip Studio Paint Pro/Ex",
+    "description": "Free Text SFX for lewd comics and illustrations. Feel free to download directly or buy them for 100CP in the Clip studio store.",
     "type": "asset",
     "contentWarnings": [],
 
@@ -13,10 +13,14 @@
     "links": [{
         "name": "Clip Studio",
         "content": "https://assets.clip-studio.com/en-us/detail?id=1990655"
-    }]
+    }],
+
+    "members": [
+        "Fractal"
+    ]
 }, {
-    "name": "My Wife Is A Cuck Quean",
-    "description": "",
+    "name": "My Wife Is A Cuckquean",
+    "description": "A comic following Sean and Ashley, a married couple that gets visited by Ashley's old bully, she is there to do mischief and seduce her husband... And surprisingly, she's into it!",
     "type": "comic",
     "contentWarnings": [ "Cuckquean", "Reverse NTR" ],
 
@@ -27,5 +31,31 @@
     "links": [{
         "name": "Read",
         "content": "https://mwiaq.uwu.ai/"
-    }]
+    }],
+
+    "members": [
+        "Fractal",
+        "Yume",
+        "MayaEnMallas"
+    ]
+}, {
+    "name": "Succ-Ciety",
+    "description": "A 2.5D entry to the Lewdie Jam 2023! In this game you play as Nova, a normal girl who got turned into a succubus overnight, her womb tattoo speaks to her letting her know that in order to survive the night she must have sex...",
+    "type": "gamejam",
+    "contentWarnings": [ "Pregancy", "Futanari", "Tentacles" ],
+
+    "baseFolder": "SuccCiety",
+    "preview": "preview.jpg",
+
+    "download": [],
+    "links": [{
+        "name": "Itch",
+        "content": "https://fractalstella.itch.io/succ-ciety/"
+    }],
+
+    "members": [
+        "Fractal",
+        "Yume",
+        "Zirk"
+    ]
 }]

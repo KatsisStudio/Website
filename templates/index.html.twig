@@ -5,21 +5,31 @@
     <p>
         Katsis is a video game studio focused in delivery open-minded experiences. Whilst many of our projects are <b>N</b>ot <b>S</b>afe <b>F</b>or <b>W</b>ork <br> we do not limit ourselves in exploring further ideas. Feel free to follow our members, and check out or content below!
     </p>
-    <h2>Projects:</h2>
+    <h2>Our Work:</h2>
     <div class="flex" id="projects">
     {% for project in projects %}
         <div>
             <h3>{{ project.name }}</h3>
-            <p>
+            <p class="description">
                 {{ project.description }}
             </p>
-            <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
+            <div class="img-container">
+                <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
+            </div>
             {% for d in project.download %}
             <a class="button" href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
             {% endfor %}
             {% for link in project.links %}
             <a class="button" href="{{ link.content }}">{{ link.name }}</a>
             {% endfor %}
+            <div class="flex warnings">
+                {% for warn in project.contentWarnings %}
+                <div class="content-warning">{{ warn }}</div>
+                {% endfor %}
+            </div>
+            <p class="proj-members">
+                By {{ project.members | join(', ') }}
+            </p>
         </div>
     {% endfor %}
     </div>
