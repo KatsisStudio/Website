@@ -1,4 +1,11 @@
 [{
+    "name": "Dekakumadon",
+    "image": "deka.png",
+    "socials": [{
+        "name": "twitter",
+        "link": "https://twitter.com/ModelAndSculpts"
+    }]
+}, {
     "name": "Fractal",
     "image": "fractal.png",
     "socials": [{
@@ -18,6 +25,13 @@
     "socials": [{
         "name": "twitter",
         "link": "https://twitter.com/SukeBanchoR18"
+    }]
+}, {
+    "name": "WordedPuppet",
+    "image": "worded.png",
+    "socials": [{
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCdNHTlWrSTVnbUd9HbWpt9A"
     }]
 }, {
     "name": "Yume",
