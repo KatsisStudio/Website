@@ -61,4 +61,27 @@
         "Yume",
         "Zirk"
     ]
+}, {
+    "name": "Dream of JOI",
+    "description": "A rhythm game entry to the NSFW MiniJam! The first and most important rule, ITS FORBIDDEN TO CUM EARLY! Get ready to FAP to the rhythm! Who knows, if you do it well enough, you might get to see a better ending to the song!",
+    "type": "gamejam",
+    "contentWarnings": [ "JOI", "Tentacles", "Monster Girl" ],
+
+    "baseFolder": "DreamOfJOI",
+    "preview": "preview.png",
+
+    "download": [],
+    "links": [{
+        "name": "Itch",
+        "content": "https://fractalstella.itch.io/dream-of-joi/"
+    }],
+
+    "members": [
+        "Dekakumadon",
+        "Fractal",
+        "SweaterWeather",
+        "WordedPuppet",
+        "Yume",
+        "Zirk"
+    ]
 }]
