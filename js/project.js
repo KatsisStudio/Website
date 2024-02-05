@@ -48,4 +48,15 @@ window.addEventListener("load", _ => {
             img.src = member.dataset.sfw;
         });
     }
+
+    for (let charac of document.getElementsByClassName("character-info")) {
+        const img = charac.querySelector("img");
+
+        charac.addEventListener("mouseover", _ => {
+            img.src = charac.dataset.nsfw;
+        });
+        charac.addEventListener("mouseout", _ => {
+            img.src = charac.dataset.sfw;
+        });
+    }
 });
