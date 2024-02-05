@@ -48,6 +48,7 @@ html {
 
 #projects img {
     max-height: 300px;
+    max-width: 400px;
 }
 
 #projects .proj-members {

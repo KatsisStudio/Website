@@ -9,11 +9,8 @@
     <h2>Our Work:</h2>
     <div class="flex" id="projects">
     {% for project in projects %}
-        <div>
+        <div class="project-info" data-previews="{{ project.previews | map(x => "data/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="data/projects/{{ project.baseFolder }}/{{ project.preview }}">
             <h3>{{ project.name }}</h3>
-            <p class="description">
-                {{ project.description }}
-            </p>
             <div class="img-container">
                 <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
             </div>

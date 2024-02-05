@@ -6,6 +6,7 @@
 
     "baseFolder": "CuteSoundEffects",
     "preview": "preview.jpeg",
+    "previews": [],
 
     "download": [
         "text.clip"
@@ -26,6 +27,7 @@
 
     "baseFolder": "MyWifeIsACuckQuean",
     "preview": "preview.jpg",
+    "previews": [],
 
     "download": [],
     "links": [{
@@ -46,6 +48,9 @@
 
     "baseFolder": "SuccCiety",
     "preview": "preview.jpg",
+    "previews": [
+        "preview-01.png"
+    ],
 
     "download": [],
     "links": [{
@@ -69,6 +74,7 @@
 
     "baseFolder": "DreamOfJOI",
     "preview": "preview.png",
+    "previews": [],
 
     "download": [],
     "links": [{
