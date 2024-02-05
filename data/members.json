@@ -1,5 +1,6 @@
 [{
     "name": "Dekakumadon",
+    "role": "3D Artist",
     "image": "deka.png",
     "socials": [{
         "name": "twitter",
@@ -7,6 +8,7 @@
     }]
 }, {
     "name": "Fractal",
+    "role": "2D Artist",
     "image": "fractal.png",
     "imageLewd": "fractal-lewd.png",
     "socials": [{
@@ -15,6 +17,7 @@
     }]
 }, {
     "name": "EnMallas",
+    "role": "2D Artist",
     "image": "maya.png",
     "socials": [{
         "name": "twitter",
@@ -22,6 +25,7 @@
     }]
 }, {
     "name": "SukeBancho",
+    "role": "Writer",
     "image": "suke.jpg",
     "socials": [{
         "name": "twitter",
@@ -29,6 +33,7 @@
     }]
 }, {
     "name": "SweaterWeather",
+    "role": "2D Artist",
     "image": "sweater.png",
     "socials": [{
         "name": "twitter",
@@ -36,6 +41,7 @@
     }]
 }, {
     "name": "WordedPuppet",
+    "role": "Composer",
     "image": "worded.png",
     "socials": [{
         "name": "youtube",
@@ -43,6 +49,7 @@
     }]
 }, {
     "name": "Yume",
+    "role": "2D Artist",
     "image": "yume.png",
     "socials": [{
         "name": "twitter",
@@ -50,6 +57,7 @@
     }]
 }, {
     "name": "Zirk",
+    "role": "Programmer",
     "image": "zirk.png",
     "socials": [{
         "name": "website",
