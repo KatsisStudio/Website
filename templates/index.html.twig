@@ -1,75 +1,15 @@
 {% extends 'base.html.twig' %}
 
 {% block content %}
-    <h1>Katsis</h1>
-    <p>
-        Katsis is a video game studio focused in delivering <b>N</b>ot <b>S</b>afe <b>F</b>or <b>W</b>ork experiences.<br/>
-        Feel free to follow our members, and check out or content below!
-    </p>
-    <h2>Our Work:</h2>
-    <div class="flex" id="projects">
-    {% for project in projects %}
-        <div class="project-info" data-previews="{{ project.previews | map(x => "data/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="data/projects/{{ project.baseFolder }}/{{ project.preview }}">
-            <h3>{{ project.name }}</h3>
-            <div class="img-container">
-                <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
-            </div>
-            {% for d in project.download %}
-            <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
-            {% endfor %}
-            {% for link in project.links %}
-            <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
-            {% endfor %}
-            <div class="flex warnings">
-                {% for warn in project.contentWarnings %}
-                <div class="content-warning">{{ warn }}</div>
-                {% endfor %}
-            </div>
-            <p class="proj-members">
-                By {{ project.members | join(', ') }}
-            </p>
-        </div>
-    {% endfor %}
+    <div id="disclaimer">
+        <p>
+            This website contains mature content such as nudity or sexual acts<br/>
+            Before continuing, please confirm that you are in the legal age of seeing these
+        </p>
+        <button id="entry-confirm">Yes, I am of legal age and want to enter</button><br/>
+        <button id="entry-deny" class="button">No, I want to leave</button>
     </div>
-    <h2>Members:</h2>
-    <div class="flex" id="members">
-    {% for member in members %}
-        <div class="member-info" data-sfw="data/members/{{ member.image }}" data-nsfw="data/members/{{ member.imageLewd ?? member.image }}">
-            <h3>{{ member.name }}</h3>
-            <img src="data/members/{{ member.image }}" width="100" height="100"/>
-            <div class="flex socials">
-                {% for so in member.socials %}
-                <a href="{{ so.link }}" target="_blank">
-                {% if so.name == "twitter" %}
-                <i class="fa-brands fa-twitter"></i>
-                {% elseif so.name == "youtube" %}
-                <i class="fa-brands fa-youtube"></i>
-                {% else %}
-                <i class="fa-solid fa-globe"></i>
-                {% endif %}
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-    {% endfor %}
+    <div id="content" hidden>
+    {% include 'content.html.twig' %}
     </div>
-    <h2>Characters:</h2>
-     {% for charac in characters %}
-        <div class="character-info" data-sfw="data/characters/{{ charac.image }}" data-nsfw="data/characters/{{ charac.hover ?? charac.image }}">
-            <h3>{{ charac.name }}</h3>
-            <div class="flex">
-                <div>
-                    <img src="data/characters/{{ charac.image }}" height="400"/>
-                </div>
-                <div>
-                    <h3>Involved in</h3>
-                    Inflation, Futanari, Tentacles
-                    <h3>Games</h3>
-                    Succ-Ciety
-                </div>
-            </div>
-            <div class="flex socials">
-            </div>
-        </div>
-    {% endfor %}
 {% endblock %}
