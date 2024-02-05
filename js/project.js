@@ -37,4 +37,15 @@ window.addEventListener("load", _ => {
             });
         }
     }
+
+    for (let member of document.getElementsByClassName("member-info")) {
+        const img = member.querySelector("img");
+
+        member.addEventListener("mouseover", _ => {
+            img.src = member.dataset.nsfw;
+        });
+        member.addEventListener("mouseout", _ => {
+            img.src = member.dataset.sfw;
+        });
+    }
 });

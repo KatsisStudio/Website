@@ -8,6 +8,7 @@
 }, {
     "name": "Fractal",
     "image": "fractal.png",
+    "imageLewd": "fractal-lewd.png",
     "socials": [{
         "name": "twitter",
         "link": "https://twitter.com/FractalStella"

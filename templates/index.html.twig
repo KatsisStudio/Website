@@ -34,7 +34,7 @@
     <h2>Members:</h2>
     <div class="flex" id="members">
     {% for member in members %}
-        <div>
+        <div class="member-info" data-sfw="data/members/{{ member.image }}" data-nsfw="data/members/{{ member.imageLewd ?? member.image }}">
             <h3>{{ member.name }}</h3>
             <img src="data/members/{{ member.image }}" width="100" height="100"/>
             <div class="flex socials">
