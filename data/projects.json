@@ -2,6 +2,8 @@
     "name": "Cute Sound Effects",
     "description": "Free Text SFX for lewd comics and illustrations. Feel free to download directly or buy them for 100CP in the Clip studio store.",
     "type": "asset",
+
+    "gameGenre": null,
     "contentWarnings": [],
 
     "baseFolder": "CuteSoundEffects",
@@ -23,6 +25,8 @@
     "name": "My Wife Is A Cuckquean",
     "description": "A comic following Sean and Ashley, a married couple that gets visited by Ashley's old bully, she is there to do mischief and seduce her husband... And surprisingly, she's into it!",
     "type": "comic",
+
+    "gameGenre": null,
     "contentWarnings": [ "Cuckquean", "Reverse NTR" ],
 
     "baseFolder": "MyWifeIsACuckquean",
@@ -46,6 +50,8 @@
     "name": "Succ-Ciety",
     "description": "A 2.5D entry to the Lewdie Jam 2023! In this game you play as Nova, a normal girl who got turned into a succubus overnight, her womb tattoo speaks to her letting her know that in order to survive the night she must have sex...",
     "type": "gamejam",
+
+    "gameGenre": "Beat 'em up",
     "contentWarnings": [ "Pregancy", "Futanari", "Tentacles" ],
 
     "baseFolder": "SuccCiety",
@@ -72,6 +78,8 @@
     "name": "Dream of JOI",
     "description": "A rhythm game entry to the NSFW MiniJam! The first and most important rule, ITS FORBIDDEN TO CUM EARLY! Get ready to FAP to the rhythm! Who knows, if you do it well enough, you might get to see a better ending to the song!",
     "type": "gamejam",
+
+    "gameGenre": "Rhythm",
     "contentWarnings": [ "JOI", "Tentacles", "Monster Girl" ],
 
     "baseFolder": "DreamOfJOI",

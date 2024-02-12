@@ -20,7 +20,10 @@
             {% for link in project.links %}
             <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
             {% endfor %}
-            <div class="flex warnings">
+            <div class="flex tags">
+                {% if project.gameGenre is not null %}
+                <div class="main-genre">{{ project.gameGenre }}</div>
+                {% endif %}
                 {% for warn in project.contentWarnings %}
                 <div class="content-warning">{{ warn }}</div>
                 {% endfor %}
@@ -55,7 +58,7 @@
     {% endfor %}
     </div>
     <h2>Characters:</h2>
-     {% for charac in characters %}
+    {% for charac in characters %}
         <div class="character-info" data-sfw="data/characters/{{ charac.image }}" data-nsfw="data/characters/{{ charac.hover ?? charac.image }}">
             <h3>{{ charac.name }}</h3>
             <div class="flex">
@@ -64,9 +67,9 @@
                 </div>
                 <div>
                     <h3>Involved in</h3>
-                    Inflation, Futanari, Tentacles
+                    {{ charac.involvements | join(', ') }}
                     <h3>Games</h3>
-                    Succ-Ciety
+                    {{ charac.games | join(', ') }}
                 </div>
             </div>
             <div class="flex socials">
