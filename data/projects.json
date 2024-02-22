@@ -102,4 +102,49 @@
         "Yume",
         "Zirk"
     ]
+}, {
+    "name": "The Milky Way Ranch",
+    "description": "A tower defense entry to the NSFW MiniJam #2! Upgrade your cows, Milk them to grow their strength, and take care of the ornery alien invaders!",
+    "type": "gamejam",
+
+    "gameGenre": "Tower Defense",
+    "contentWarnings": [ "Milking", "Monster Girl" ],
+
+    "baseFolder": "TheMilkyWayRanch",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Itch",
+        "content": "https://sweaterweathergames.itch.io/the-milky-way-ranch/"
+    }],
+
+    "members": [
+        "Fractal",
+        "SweaterWeather",
+        "WordedPuppet",
+        "Yume",
+        "Zirk"
+    ]
+}, {
+    "name": "Aethra's Eggflation",
+    "description": "The goal is to get the highest tier of egg... The Space Egg! before filling up Aethra's belly.",
+    "type": "game",
+
+    "gameGenre": "Puzzle",
+    "contentWarnings": [ "Inflation", "Egg Laying" ],
+
+    "baseFolder": "AethrasEggflation",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [],
+
+    "members": [
+        "Fractal",
+        "Yume",
+        "Zirk"
+    ]
 }]
