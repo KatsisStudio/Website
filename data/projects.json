@@ -112,7 +112,9 @@
 
     "baseFolder": "TheMilkyWayRanch",
     "preview": "preview.png",
-    "previews": [],
+    "previews": [
+        "preview-01.png", "preview-02.png", "preview-03.png"
+    ],
 
     "download": [],
     "links": [{
@@ -137,10 +139,15 @@
 
     "baseFolder": "AethrasEggflation",
     "preview": "preview.png",
-    "previews": [],
+    "previews": [
+        "preview-01.png", "preview-02.png", "preview-03.png"
+    ],
 
     "download": [],
-    "links": [],
+    "links": [{
+        "name": "Itch",
+        "content": "https://fractalstella.itch.io/aethras-eggflation"
+    }],
 
     "members": [
         "Fractal",
