@@ -7,32 +7,21 @@
         Feel free to follow our members, and check out or content below!
     </p>
     <h2>Our Work:</h2>
-    <div class="flex" id="projects">
-    {% for project in projects %}
-        <div class="project-info" data-previews="{{ project.previews | map(x => "data/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="data/projects/{{ project.baseFolder }}/{{ project.preview }}">
-            <h3>{{ project.name }}</h3>
-            <div class="img-container">
-                <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
-            </div>
-            {% for d in project.download %}
-            <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
-            {% endfor %}
-            {% for link in project.links %}
-            <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
-            {% endfor %}
-            <div class="flex tags">
-                {% if project.gameGenre is not null %}
-                <div class="main-genre">{{ project.gameGenre }}</div>
-                {% endif %}
-                {% for warn in project.contentWarnings %}
-                <div class="content-warning">{{ warn }}</div>
-                {% endfor %}
-            </div>
-            <p class="proj-members">
-                By {{ project.members | join(', ') }}
-            </p>
+    <div id="projects-menu" class="flex">
+        <button data-target="project-games">Projects</button>
+        <button data-target="project-assets">Assets</button>
+    </div>
+    <div id="projects-container">
+        <div class="flex projects" id="project-games">
+        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam" or p.type == "comic") %}
+            {% include 'project.html.twig' %}
+        {% endfor %}
         </div>
-    {% endfor %}
+        <div class="flex projects" id="project-assets">
+        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam" and p.type != "comic") %}
+            {% include 'project.html.twig' %}
+        {% endfor %}
+        </div>
     </div>
     <h2>Members:</h2>
     <div class="flex" id="members">

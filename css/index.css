@@ -1,6 +1,6 @@
 html {
     font-family: Verdana, sans-serif;
-    background-color: rgb(30, 30, 30);
+    background-color: #1e1e1e;
     color: #ccc;
     line-height: 1.5em;
     text-align: center;
@@ -16,6 +16,10 @@ h2 {
     justify-content: center;
 }
 
+.hidden {
+    display: none;
+}
+
 #members > div {
     width: 500px;
 }
@@ -29,54 +33,78 @@ h2 {
     font-size: 1.5em;
 }
 
-#projects {
+#projects-menu {
+    text-align: center;
+    column-gap: 10px;
+}
+
+#projects-menu button {
+    width: 40%;
+    height: 3em;
+
+    background-color: #1e1e1e;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#projects-menu button:hover {
+    color: #1e1e1e;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.projects {
     column-gap: 25px;
 }
 
-#projects > div {
+.projects > div {
     width: 400px;
 }
 
-#projects h3 {
+.projects h3 {
     height: 20px;
 }
 
-#projects .description {
+.projects .description {
     height: 150px;
     text-align: justify;
 }
 
-#projects .img-container {
+.projects .img-container {
     height: 300px;
     margin-bottom: 1em;
 }
 
-#projects img {
+.projects img {
     height: 300px;
     max-width: 400px;
     object-fit: contain;
 }
 
-#projects .proj-members {
+.projects .proj-members {
     font-size: .8em;
 }
 
-#projects .tags {
+.projects .tags {
     margin-top: 10px;
     column-gap: 10px;
 }
 
-#projects .tags > div {
+.projects .tags > div {
     color: #ccc;
     border-radius: 10px;
     padding: 5px;
 }
 
-#projects .content-warning {
+.projects .content-warning {
     background-color: darkred;
 }
 
-#projects .main-genre {
+.projects .main-genre {
     background-color: darkgreen;
 }
 

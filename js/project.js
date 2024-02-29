@@ -1,4 +1,25 @@
 window.addEventListener("load", _ => {
+
+    // PROJECT MENU BUTTONS
+
+    const buttons = document.querySelectorAll("#projects-container > div");
+    for (let i = 1; i < buttons.length; i++)
+    {
+        buttons[i].classList.add("hidden");
+    }
+
+    for (let button of document.querySelectorAll("#projects-menu > button"))
+    {
+        button.addEventListener("click", _ => {
+            for (let b of buttons)
+            {
+                b.classList.add("hidden");
+            }
+            document.getElementById(button.dataset.target).classList.remove("hidden");
+        });
+    }
+
+    // PROJECT RENDERING
     let intervalFct;
 
     let displayImg;
