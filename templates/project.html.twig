@@ -9,7 +9,9 @@
     {% for link in project.links %}
     <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
     {% endfor %}
+    {% if project.type != "asset" %}
     <div class="flex tags">
+        <div class="main-type">{{ project.type | title }}</div>
         {% if project.gameGenre is not null %}
         <div class="main-genre">{{ project.gameGenre }}</div>
         {% endif %}
@@ -17,6 +19,7 @@
         <div class="content-warning">{{ warn }}</div>
         {% endfor %}
     </div>
+    {% endif %}
     <p class="proj-members">
         By {{ project.members | join(', ') }}
     </p>

@@ -92,12 +92,15 @@ h2 {
 .projects .tags {
     margin-top: 10px;
     column-gap: 10px;
+    height: 100px;
 }
 
 .projects .tags > div {
     color: #ccc;
     border-radius: 10px;
+    height: 25px;
     padding: 5px;
+    margin-bottom: .5em;
 }
 
 .projects .content-warning {
@@ -106,6 +109,10 @@ h2 {
 
 .projects .main-genre {
     background-color: darkgreen;
+}
+
+.projects .main-type {
+    background-color: darkblue;
 }
 
 a {
