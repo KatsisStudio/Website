@@ -11,10 +11,13 @@
 }
 
 #entry-confirm {
-    background-color: rgb(50, 202, 50);
+    background-color: rgb(233, 40, 88);
+    color: aliceblue;
 
 }
 
 #entry-deny {
-    background-color: rgb(241, 112, 112);
+    background-color: rgb(79, 0, 0);
+    color: aliceblue;
+
 }

@@ -1,8 +1,8 @@
 <div class="project-info" data-previews="{{ project.previews | map(x => "data/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="data/projects/{{ project.baseFolder }}/{{ project.preview }}">
-    <h3>{{ project.name }}</h3>
     <div class="img-container">
         <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
     </div>
+    <h3>{{ project.name }}</h3>
     {% for d in project.download %}
     <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
     {% endfor %}

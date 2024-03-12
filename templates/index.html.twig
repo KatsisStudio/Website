@@ -2,12 +2,13 @@
 
 {% block content %}
     <div id="disclaimer">
+        <img src="img/disclaimer.png" alt="Fractal holding a sign that says ayo" width="150vw" height="auto"> 
         <p>
             This website contains mature content such as nudity or sexual acts<br/>
             Before continuing, please confirm that you are in the legal age of seeing these
         </p>
-        <button id="entry-confirm">Yes, I am of legal age and want to enter</button><br/>
-        <button id="entry-deny" class="button">No, I want to leave</button>
+        <button id="entry-confirm"><b>Yes</b>, I am of legal age and want to enter</button><br/>
+        <button id="entry-deny" class="button"><b>No</b>, I want to leave</button>
     </div>
     <div id="content" hidden>
     {% include 'content.html.twig' %}

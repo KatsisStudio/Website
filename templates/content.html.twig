@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block content %}
-    <h1>Katsis</h1>
+    <h1 id="logoTitle">Katsis</h1>
     <p>
         Katsis is a video game studio focused in delivering <b>N</b>ot <b>S</b>afe <b>F</b>or <b>W</b>ork experiences.<br/>
         Feel free to follow our members, and check out or content below!
@@ -23,7 +23,7 @@
         {% endfor %}
         </div>
     </div>
-    <h2>Members:</h2>
+    <h2>Our Members!</h2>
     <div class="flex" id="members">
     {% for member in members %}
         <div class="member-info" data-sfw="data/members/{{ member.image }}" data-nsfw="data/members/{{ member.imageLewd ?? member.image }}">
