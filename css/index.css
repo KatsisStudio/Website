@@ -38,8 +38,8 @@ h2 {
     column-gap: 10px;
 }
 
-#projects-menu button {
-    width: 40%;
+#projects-menu button, #projects-menu .button {
+    width: 28%;
     height: 3em;
 
     background-color: #1e1e1e;
@@ -51,7 +51,16 @@ h2 {
     font-weight: bold;
 }
 
-#projects-menu button:hover {
+#projects-menu .button {
+    text-decoration: none;
+}
+
+#projects-menu .button > div {
+    height: 100%;
+    align-items: center;
+}
+
+#projects-menu button:hover, #projects-menu .button:hover {
     color: #1e1e1e;
     background-color: #ccc;
     cursor: pointer;
