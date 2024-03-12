@@ -62,19 +62,28 @@ h4 {
     column-gap: 10px;
 }
 
+.button,
 #projects-menu button {
-    width: 20%;
-    height: 3em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 3em;
     margin-bottom: 2em;
+    border-radius: 10px;
+    font-family: 'MotleyForcesRegular', sans-serif;
+    font-size: 1.5em;
     background-color: rgb(250, 43, 95);
     color: #ccc;
     border: 3px solid #ccc;
-    border-radius: 10px;
-    font-family:'MotleyForcesRegular', sans-serif;
-    font-size: 1.5em;
+    box-sizing: border-box; 
+    text-decoration: none;
 }
 
-#projects-menu button:hover {
+#projects-menu .button > div {
+    height: 100%;
+    align-items: center;
+}
+
+#projects-menu button:hover, #projects-menu .button:hover {
     color: #1e1e1e;
     background-color: #ccc;
     cursor: pointer;
@@ -100,15 +109,16 @@ h4 {
 .projects .img-container {
     height: 300px;
     margin-bottom: 1em;
+    border-radius: 3em;
+    display: inline-block;
 }
 
 .projects img {
     height: 300px;
     max-width: 400px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 3em;
     box-shadow: 3px 3px 0px rgb(255, 128, 159);
-    
 }
 
 .projects .proj-members {
@@ -170,6 +180,9 @@ a {
         
     }
     #projects-menu button {
+        width: 90%; /* Adjust width for mobile devices */
+    }
+    #projects-menu .button {
         width: 90%; /* Adjust width for mobile devices */
     }
 }
