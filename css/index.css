@@ -58,7 +58,6 @@ h4 {
 #projects-menu {
     text-align: center;
     column-gap: 10px;
-    text-transform: uppercase;
 }
 
 #projects-menu .button,
@@ -76,6 +75,7 @@ h4 {
     box-sizing: border-box; 
     text-decoration: none;
     width: 300px;
+    text-transform: uppercase;
 }
 
 #projects-menu .button > div {
