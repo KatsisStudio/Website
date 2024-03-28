@@ -9,17 +9,18 @@
     <h2>Our Work:</h2>
     <div id="projects-menu" class="flex">
         <button data-target="project-games">Projects</button>
+        <a class="button" href="https://comic.katsis.net"><div class="flex"><div>Comics</div></div></a>
         <button data-target="project-assets">Assets</button>
         <a class="button" href="https://blog.katsis.net"><div class="flex"><div>Blog</div></div></a>
     </div>
     <div id="projects-container">
         <div class="flex projects" id="project-games">
-        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam" or p.type == "comic") %}
+        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam") %}
             {% include 'project.html.twig' %}
         {% endfor %}
         </div>
         <div class="flex projects" id="project-assets">
-        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam" and p.type != "comic") %}
+        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam") %}
             {% include 'project.html.twig' %}
         {% endfor %}
         </div>
