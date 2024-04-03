@@ -14,8 +14,8 @@ html {
     color: #d4cfdd;
     line-height: 1.8em;
     text-align: center;
-    background-image: url('../img/BG.png');
-    background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,0,58,1) 50%, rgba(27,0,82,1) 100%); 
 }
 
 p {
