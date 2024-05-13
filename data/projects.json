@@ -150,4 +150,30 @@
         "Yume",
         "Zirk"
     ]
+}, {
+    "name": "Cumshot Roulette",
+    "description": "After selling your soul for an ice cream, you encounter the succubus Preada in a dark alleyway, who's very eager to collect her debt.",
+    "type": "game",
+
+    "gameGenre": "Arcade",
+    "contentWarnings": [],
+
+    "baseFolder": "CumshotRoulette",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png", "preview-02.png", "preview-03.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://wordedpuppet.itch.io/cumshot-roulette"
+    }],
+
+    "members": [
+        "Akumu",
+        "Fractal",
+        "SweaterWeather",
+        "WordedPuppet"
+    ]
 }]

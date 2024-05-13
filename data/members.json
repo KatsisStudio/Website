@@ -1,4 +1,12 @@
 [{
+    "name": "Akumu",
+    "role": "Writer",
+    "image": "empty.png",
+    "socials": [{
+        "name": "discord",
+        "link": "akumu9k"
+    }]
+}, {
     "name": "Dekakumadon",
     "role": "3D Artist",
     "image": "deka.png",

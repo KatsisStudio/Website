@@ -16,12 +16,12 @@
     </div>
     <div id="projects-container">
         <div class="flex projects" id="project-games">
-        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam") %}
+        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam") | reverse %}
             {% include 'project.html.twig' %}
         {% endfor %}
         </div>
         <div class="flex projects" id="project-assets">
-        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam") %}
+        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam") | reverse %}
             {% include 'project.html.twig' %}
         {% endfor %}
         </div>
@@ -35,15 +35,19 @@
             <img src="data/members/{{ member.image }}" width="100" height="100"/>
             <div class="flex socials">
                 {% for so in member.socials %}
-                <a href="{{ so.link }}" target="_blank">
-                {% if so.name == "twitter" %}
-                <i class="fa-brands fa-twitter"></i>
-                {% elseif so.name == "youtube" %}
-                <i class="fa-brands fa-youtube"></i>
+                {% if so.name == "discord" %}
+                <span title="{{ so.link }}"><i class="fab fa-discord"></i></span>
                 {% else %}
-                <i class="fa-solid fa-globe"></i>
+                    <a href="{{ so.link }}" target="_blank">
+                    {% if so.name == "twitter" %}
+                    <i class="fa-brands fa-twitter"></i>
+                    {% elseif so.name == "youtube" %}
+                    <i class="fa-brands fa-youtube"></i>
+                    {% else %}
+                    <i class="fa-solid fa-globe"></i>
+                    {% endif %}
+                    </a>
                 {% endif %}
-                </a>
                 {% endfor %}
             </div>
         </div>
