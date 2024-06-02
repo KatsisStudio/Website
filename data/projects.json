@@ -176,4 +176,29 @@
         "SweaterWeather",
         "WordedPuppet"
     ]
+}, {
+    "name": "Spell of Lust",
+    "description": "",
+    "type": "game",
+
+    "gameGenre": "Puzzle",
+    "contentWarnings": [],
+
+    "baseFolder": "SpellOfLust",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [],
+
+    "members": [
+        "Dekakumadon",
+        "Fractal",
+        "Nyx Noctis",
+        "SukeBancho",
+        "SweaterWeather",
+        "WordedPuppet",
+        "Yume",
+        "Zirk"
+    ]
 }]

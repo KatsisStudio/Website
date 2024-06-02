@@ -12,7 +12,7 @@
     "image": "deka.png",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/ModelAndSculpts"
+        "link": "https://x.com/ModelAndSculpts"
     }]
 }, {
     "name": "Fractal",
@@ -21,7 +21,7 @@
     "imageLewd": "fractal-lewd.png",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/FractalStella"
+        "link": "https://x.com/FractalStella"
     }]
 }, {
     "name": "EnMallas",
@@ -29,7 +29,18 @@
     "image": "maya.png",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/EnMallas"
+        "link": "https://x.com/EnMallas"
+    }]
+}, {
+    "name": "Nyx Noctis",
+    "role": "Voice Actor",
+    "image": "nyxnoctis.png",
+    "socials": [{
+        "name": "twitter",
+        "link": "https://x.com/wrldeater"
+    }, {
+        "name": "twitch",
+        "link": "https://www.twitch.tv/wrldeaternyx"
     }]
 }, {
     "name": "SukeBancho",
@@ -37,7 +48,7 @@
     "image": "suke.jpg",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/SukeBanchoR18"
+        "link": "https://x.com/SukeBanchoR18"
     }]
 }, {
     "name": "SweaterWeather",
@@ -45,7 +56,7 @@
     "image": "sweater.png",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/Sweather_art"
+        "link": "https://x.com/Sweather_art"
     }]
 }, {
     "name": "WordedPuppet",
@@ -61,7 +72,7 @@
     "image": "yume.png",
     "socials": [{
         "name": "twitter",
-        "link": "https://twitter.com/FragantPauline"
+        "link": "https://x.com/FragantPauline"
     }]
 }, {
     "name": "Zirk",
