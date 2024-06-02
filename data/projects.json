@@ -189,7 +189,10 @@
     "previews": [],
 
     "download": [],
-    "links": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/spell-of-lust"
+    }],
 
     "members": [
         "Dekakumadon",
