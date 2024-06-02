@@ -166,6 +166,10 @@ a, i {
     color: rgb(255, 143, 174);
 }
 
+.member-info i {
+    margin: 0 5px;
+}
+
 #logoTitle {
     font-family: 'MotleyForcesRegular', sans-serif;
     font-size: 5em;
