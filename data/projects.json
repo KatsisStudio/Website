@@ -214,4 +214,26 @@
         "Yume",
         "Zirk"
     ]
+},{
+    "name": "Live2D Template Action",
+    "description": "This auto-action will create a set of layers and folders that can be used to create a Live2D Cubism model.",
+    "type": "asset",
+    "price": "free",
+
+    "gameGenre": null,
+    "contentWarnings": [],
+
+    "baseFolder": "Live2DTemplateAction",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Clip Studio",
+        "content": "https://assets.clip-studio.com/en-us/detail?id=1849170"
+    }],
+
+    "members": [
+        "Fractal"
+    ]
 }]
