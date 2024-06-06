@@ -2,6 +2,7 @@
     "name": "Cute Sound Effects",
     "description": "Free Text SFX for lewd comics and illustrations. Feel free to download directly or buy them for 100CP in the Clip studio store.",
     "type": "asset",
+    "price": "free",
 
     "gameGenre": null,
     "contentWarnings": [],
@@ -25,6 +26,7 @@
     "name": "Succ-Ciety",
     "description": "A 2.5D entry to the Lewdie Jam 2023! In this game you play as Nova, a normal girl who got turned into a succubus overnight, her womb tattoo speaks to her letting her know that in order to survive the night she must have sex...",
     "type": "gamejam",
+    "price": "free",
 
     "gameGenre": "Beat 'em up",
     "contentWarnings": [ "Pregancy", "Futanari", "Tentacles" ],
@@ -53,6 +55,7 @@
     "name": "Dream of JOI",
     "description": "A rhythm game entry to the NSFW MiniJam! The first and most important rule, ITS FORBIDDEN TO CUM EARLY! Get ready to FAP to the rhythm! Who knows, if you do it well enough, you might get to see a better ending to the song!",
     "type": "gamejam",
+    "price": "free",
 
     "gameGenre": "Rhythm",
     "contentWarnings": [ "JOI", "Tentacles", "Monster Girl" ],
@@ -81,6 +84,7 @@
     "name": "The Milky Way Ranch",
     "description": "A tower defense entry to the NSFW MiniJam #2! Upgrade your cows, Milk them to grow their strength, and take care of the ornery alien invaders!",
     "type": "gamejam",
+    "price": "free",
 
     "gameGenre": "Tower Defense",
     "contentWarnings": [ "Milking", "Monster Girl" ],
@@ -108,6 +112,7 @@
     "name": "Mellow Piano Sounds Volume 1",
     "description": "Collection of 12 files, both in WAV and MP3 format",
     "type": "asset",
+    "price": "paid",
 
     "gameGenre": null,
     "contentWarnings": [],
@@ -118,7 +123,7 @@
 
     "download": [],
     "links": [{
-        "name": "Play on Itch!",
+        "name": "Buy on Itch!",
         "content": "https://fractalstella.itch.io/mellow-piano-sounds-1"
     }],
 
@@ -129,6 +134,7 @@
     "name": "Aethra's Eggflation",
     "description": "The goal is to get the highest tier of egg... The Space Egg! before filling up Aethra's belly.",
     "type": "game",
+    "price": "free",
 
     "gameGenre": "Puzzle",
     "contentWarnings": [ "Inflation", "Egg Laying" ],
@@ -154,6 +160,7 @@
     "name": "Cumshot Roulette",
     "description": "After selling your soul for an ice cream, you encounter the succubus Preada in a dark alleyway, who's very eager to collect her debt.",
     "type": "game",
+    "price": "free",
 
     "gameGenre": "Arcade",
     "contentWarnings": [],
@@ -180,6 +187,7 @@
     "name": "Spell of Lust",
     "description": "",
     "type": "game",
+    "price": "free",
 
     "gameGenre": "Puzzle",
     "contentWarnings": [],

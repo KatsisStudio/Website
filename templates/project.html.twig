@@ -2,7 +2,7 @@
     <div class="img-container">
         <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
     </div>
-    <h3>{{ project.name }}</h3>
+    <h3>{{ project.name }}{% if project.price == "paid" %}<i class="fa-solid fa-euro-sign price"></i>{% endif %}</h3>
     {% for d in project.download %}
     <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
     {% endfor %}

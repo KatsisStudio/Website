@@ -194,3 +194,8 @@ a, i {
         width: 90%; /* Adjust width for mobile devices */
     }
 }
+
+.price {
+    font-size: 13px;
+    margin-left: 10px;
+}
