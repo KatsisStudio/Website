@@ -1,5 +1,6 @@
 [{
     "name": "Akumu",
+    "description": [],
     "role": "Writer",
     "image": "empty.png",
     "socials": [{
@@ -9,6 +10,7 @@
     "commissions": null
 }, {
     "name": "Dekakumadon",
+    "description": [],
     "role": "3D Artist",
     "image": "deka.png",
     "socials": [{
@@ -18,6 +20,11 @@
     "commissions": null
 }, {
     "name": "Fractal",
+    "description": [
+        "Creature from another world in search for vengeance or tasty things.",
+        "",
+        "NSFW artist & dev with the goal of drawing every fetish."
+    ],
     "role": "2D Artist",
     "image": "fractal.png",
     "imageLewd": "fractal-lewd.png",
@@ -63,6 +70,7 @@
     }
 }, {
     "name": "EnMallas",
+    "description": [],
     "role": "2D Artist",
     "image": "maya.png",
     "socials": [{
@@ -72,6 +80,7 @@
     "commissions": null
 }, {
     "name": "Nyx Noctis",
+    "description": [],
     "role": "Voice Actor",
     "image": "nyxnoctis.png",
     "socials": [{
@@ -84,12 +93,14 @@
     "commissions": null
 }, {
     "name": "OniQuits",
+    "description": [],
     "role": "2D Artist",
     "image": "oniquits.png",
     "socials": [],
     "commissions": null
 }, {
     "name": "SukeBancho",
+    "description": [],
     "role": "Writer",
     "image": "suke.jpg",
     "socials": [{
@@ -99,6 +110,7 @@
     "commissions": null
 }, {
     "name": "SweaterWeather",
+    "description": [],
     "role": "2D Artist",
     "image": "sweater.png",
     "socials": [{
@@ -108,6 +120,7 @@
     "commissions": null
 }, {
     "name": "WordedPuppet",
+    "description": [],
     "role": "Composer",
     "image": "worded.png",
     "socials": [{
@@ -117,6 +130,7 @@
     "commissions": null
 }, {
     "name": "Yume",
+    "description": [],
     "role": "2D Artist",
     "image": "yume.png",
     "socials": [{
@@ -126,6 +140,7 @@
     "commissions": null
 }, {
     "name": "Zirk",
+    "description": [],
     "role": "Programmer",
     "image": "zirk.png",
     "socials": [{
