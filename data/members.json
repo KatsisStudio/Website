@@ -5,7 +5,8 @@
     "socials": [{
         "name": "discord",
         "link": "akumu9k"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "Dekakumadon",
     "role": "3D Artist",
@@ -13,7 +14,8 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/ModelAndSculpts"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "Fractal",
     "role": "2D Artist",
@@ -22,7 +24,43 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/FractalStella"
-    }]
+    }],
+    "commissions": {
+        "devise": "$USD",
+        "data": [{
+            "name": "Full Art",
+            "background": "998443c6-9a91-4a53-974b-bc92259ebfba",
+            "details": [{
+                "range": "Full Body",
+                "details": "Includes Simple Background + Feedback Changes",
+                "price": 100
+            }, {
+                "range": "Half Body",
+                "details": "Includes Simple Background + Feedback Changes",
+                "price": 65
+            }, {
+                "range": "Custom",
+                "details": "Varies depending on complexity",
+                "price": -1
+            }]
+        }, {
+            "name": "Doodle & Sketches",
+            "background": "f05db9c4-77ca-49ff-9423-f33d9648407a",
+            "details": [{
+                "range": "Full Body",
+                "details": "Colors 10$USD extra. No feedback changes",
+                "price": 50
+            }, {
+                "range": "Half Body",
+                "details": "Colors 10$USD extra. No feedback changes",
+                "price": 40
+            }, {
+                "range": "Sketch",
+                "details": "No feedback changes",
+                "price": 20
+            }]
+        }]
+    }
 }, {
     "name": "EnMallas",
     "role": "2D Artist",
@@ -30,7 +68,8 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/EnMallas"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "Nyx Noctis",
     "role": "Voice Actor",
@@ -41,12 +80,14 @@
     }, {
         "name": "twitch",
         "link": "https://www.twitch.tv/wrldeaternyx"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "OniQuits",
     "role": "2D Artist",
     "image": "oniquits.png",
-    "socials": []
+    "socials": [],
+    "commissions": null
 }, {
     "name": "SukeBancho",
     "role": "Writer",
@@ -54,7 +95,8 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/SukeBanchoR18"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "SweaterWeather",
     "role": "2D Artist",
@@ -62,7 +104,8 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/Sweather_art"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "WordedPuppet",
     "role": "Composer",
@@ -70,7 +113,8 @@
     "socials": [{
         "name": "youtube",
         "link": "https://www.youtube.com/channel/UCdNHTlWrSTVnbUd9HbWpt9A"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "Yume",
     "role": "2D Artist",
@@ -78,7 +122,8 @@
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/FragantPauline"
-    }]
+    }],
+    "commissions": null
 }, {
     "name": "Zirk",
     "role": "Programmer",
@@ -86,5 +131,6 @@
     "socials": [{
         "name": "website",
         "link": "https://zirk.eu"
-    }]
+    }],
+    "commissions": null
 }]
