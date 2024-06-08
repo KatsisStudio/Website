@@ -6,6 +6,15 @@ html {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,0,58,1) 50%, rgba(27,0,82,1) 100%);
 }
 
+body {
+    margin: 0;
+    margin-top: 100px;
+}
+
+#intro {
+    line-height: 2em;
+}
+
 p {
     font-size: 1.4em;
 }
