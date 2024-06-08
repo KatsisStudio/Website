@@ -6,10 +6,7 @@
     {% for d in project.download %}
     <a href="data/projects/{{ project.baseFolder }}/{{d}}">Download</a>
     {% endfor %}
-    {% for link in project.links %}
-    <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
-    {% endfor %}
-    {% if project.type != "asset" %}
+     {% if project.type != "asset" %}
     <div class="flex tags">
         <div class="main-type">{{ project.type | title }}</div>
         {% if project.gameGenre is not null %}
@@ -20,6 +17,13 @@
         {% endfor %}
     </div>
     {% endif %}
+    {% for link in project.links %}
+    {% if project.type == "game" or project.type == "gamejam" %}
+    <a href="{{ link.content }}" target="_blank"><i class="fa-solid fa-gamepad"></i></a>
+    {% else %}
+    <a href="{{ link.content }}" target="_blank">{{ link.name }}</a>
+    {% endif %}
+    {% endfor %}
     <p class="proj-members">
         By {{ project.members | join(', ') }}
     </p>

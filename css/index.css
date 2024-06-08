@@ -3,7 +3,7 @@ html {
     color: #d4cfdd;
     line-height: 1.8em;
     text-align: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,0,58,1) 50%, rgba(27,0,82,1) 100%);
+    background: linear-gradient(0deg, rgba(153,67,88,1) 0%, rgba(21,6,19,1) 100%);
 }
 
 body {
@@ -13,10 +13,7 @@ body {
 
 #intro {
     line-height: 2em;
-}
-
-p {
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 h2 {
@@ -57,6 +54,7 @@ h4 {
 #projects-menu {
     text-align: center;
     column-gap: 10px;
+    margin-top: 50px;
 }
 
 #projects-menu .button,
@@ -98,6 +96,7 @@ h4 {
 
 .projects h3 {
     font-size: 1.5em;
+    margin-bottom: .5em;
 }
 
 .projects .description {
@@ -157,8 +156,16 @@ h4 {
     background-color: rgb(35, 14, 109);
 }
 
+.fa-gamepad {
+    font-size: 2em;
+}
+
 a, i {
     color: rgb(255, 143, 174);
+}
+
+a > i:hover {
+    color: white;
 }
 
 .member-info i {
