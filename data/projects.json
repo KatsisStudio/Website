@@ -11,9 +11,7 @@
     "preview": "preview.jpeg",
     "previews": [],
 
-    "download": [
-        "text.clip"
-    ],
+    "download": [],
     "links": [{
         "name": "Clip Studio",
         "content": "https://assets.clip-studio.com/en-us/detail?id=1990655"
