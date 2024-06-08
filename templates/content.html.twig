@@ -34,10 +34,10 @@
     {% for member in members %}
         <div class="member-info" data-sfw="data/members/{{ member.image }}" data-nsfw="data/members/{{ member.imageLewd ?? member.image }}">
             <h3>{{ member.name }}</h3>
-            <h4>{{ member.role }}</h4>
-            <a href="https://{{ member.name }}.katsis.net">
+            <a href="https://{{ member.name | replace({' ': ''}) }}.katsis.net">
                 <img src="data/members/{{ member.image }}" width="100" height="100"/>
             </a>
+            <h4>{{ member.role | join('<br>') | raw }}</h4>
             <div class="flex socials">
                 {% for so in member.socials %}
                 {% if so.name == "discord" %}

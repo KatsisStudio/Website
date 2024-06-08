@@ -172,6 +172,10 @@ a > i:hover {
     margin: 0 5px;
 }
 
+.member-info h4 {
+    height: 50px;
+}
+
 #logoTitle {
     font-family: 'MotleyForcesRegular', sans-serif;
     font-size: 5em;

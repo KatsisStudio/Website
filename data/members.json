@@ -1,7 +1,7 @@
 [{
     "name": "Akumu",
     "description": [],
-    "role": "Writer",
+    "role": [ "Writer" ],
     "image": "empty.png",
     "socials": [{
         "name": "discord",
@@ -11,7 +11,7 @@
 }, {
     "name": "Dekakumadon",
     "description": [],
-    "role": "3D Artist",
+    "role": [ "3D Artist" ],
     "image": "deka.png",
     "socials": [{
         "name": "twitter",
@@ -25,7 +25,7 @@
         "",
         "NSFW artist & dev with the goal of drawing every fetish."
     ],
-    "role": "2D Artist",
+    "role": [ "2D Artist" ],
     "image": "fractal.png",
     "imageLewd": "fractal-lewd.png",
     "socials": [{
@@ -71,7 +71,7 @@
 }, {
     "name": "EnMallas",
     "description": [],
-    "role": "2D Artist",
+    "role": [ "2D Artist" ],
     "image": "maya.png",
     "socials": [{
         "name": "twitter",
@@ -81,7 +81,7 @@
 }, {
     "name": "Nyx Noctis",
     "description": [],
-    "role": "Voice Actor",
+    "role": [ "Voice Actor" ],
     "image": "nyxnoctis.png",
     "socials": [{
         "name": "twitter",
@@ -94,14 +94,14 @@
 }, {
     "name": "OniQuits",
     "description": [],
-    "role": "2D Artist",
+    "role": [ "2D Artist", "Programmer" ],
     "image": "oniquits.png",
     "socials": [],
     "commissions": null
 }, {
     "name": "SukeBancho",
     "description": [],
-    "role": "Writer",
+    "role": [ "Writer" ],
     "image": "suke.jpg",
     "socials": [{
         "name": "twitter",
@@ -111,7 +111,7 @@
 }, {
     "name": "SweaterWeather",
     "description": [],
-    "role": "2D Artist",
+    "role": [ "2D Artist" ],
     "image": "sweater.png",
     "socials": [{
         "name": "twitter",
@@ -121,7 +121,7 @@
 }, {
     "name": "WordedPuppet",
     "description": [],
-    "role": "Composer",
+    "role": [ "Composer" ],
     "image": "worded.png",
     "socials": [{
         "name": "youtube",
@@ -131,7 +131,7 @@
 }, {
     "name": "Yume",
     "description": [],
-    "role": "2D Artist",
+    "role": [ "2D Artist" ],
     "image": "yume.png",
     "socials": [{
         "name": "twitter",
@@ -141,7 +141,7 @@
 }, {
     "name": "Zirk",
     "description": [],
-    "role": "Programmer",
+    "role": [ "Programmer" ],
     "image": "zirk.png",
     "socials": [{
         "name": "website",
