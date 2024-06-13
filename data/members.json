@@ -188,5 +188,13 @@
         "name": "website",
         "link": "https://zirk.eu/?s=0"
     }],
-    "commissions": null
+    "commissions": {
+        "devise": null,
+        "data": null,
+        "tos": null,
+        "faq": [{
+            "question": "Why are platypus mammal depites the fact that they lay eggs",
+            "answer": "Platypus indeed do lay eggs but they also produce milk, they however don't have teats and release their milk through pores in their skins"
+        }]
+    }
 }]
