@@ -34,7 +34,7 @@ try
 {
     $path = "../../img/members/"
     Write-Output $path
-    magick mogrify -resize 400x300> -path $path *
+    magick mogrify -resize 100x100> -path $path *
 }
 finally
 {
