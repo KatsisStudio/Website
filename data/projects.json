@@ -182,7 +182,7 @@
         "WordedPuppet"
     ]
 }, {
-    "name": "Spell of Lust",
+    "name": "Aethra's Spell of Lust",
     "description": "",
     "type": "game",
     "price": "free",
@@ -233,5 +233,32 @@
 
     "members": [
         "Fractal"
+    ]
+} ,{
+    "name": "Aethra's Katsis Catcher",
+    "description": "Aethra and her friends are in trouble! Use Lila's new invention the Katsis Catcher to free her!",
+    "type": "game",
+    "price": "paid",
+
+    "gameGenre": "arcade",
+    "contentWarnings": [],
+
+    "baseFolder": "KatsisCatcher",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png", "preview-02.png", "preview-03.png", "preview-04.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/aethras-katsis-catcher"
+    }],
+
+    "members": [
+        "Fractal",
+        "SweaterWeather",
+        "Yume",
+        "Zirk"
     ]
 }]
