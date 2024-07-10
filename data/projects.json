@@ -240,8 +240,8 @@
     "type": "game",
     "price": "paid",
 
-    "gameGenre": "arcade",
-    "contentWarnings": [],
+    "gameGenre": "Other",
+    "contentWarnings": [ "Inflation", "Futanari", "Tentacles" ],
 
     "baseFolder": "KatsisCatcher",
     "preview": "preview.png",
@@ -258,6 +258,32 @@
     "members": [
         "Fractal",
         "SweaterWeather",
+        "Yume",
+        "Zirk"
+    ]
+} ,{
+    "name": "Aethra's Cum Party",
+    "description": "How long can you hold it before it cums? Fill Aethra's bathub with her in it.",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Other",
+    "contentWarnings": [ "Futanari", "Cum Bath" ],
+
+    "baseFolder": "CumParty",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png", "preview-02.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/aethras-cum-party"
+    }],
+
+    "members": [
+        "Fractal",
         "Yume",
         "Zirk"
     ]
