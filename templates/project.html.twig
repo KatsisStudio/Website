@@ -1,6 +1,6 @@
 <div class="project-info" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
     <div class="img-container">
-        <img src="data/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
+        <img src="img/projects/{{ project.baseFolder }}/{{ project.preview }}"/><br>
     </div>
     <h3>{{ project.name }}{% if project.price == "paid" %}<i class="fa-solid fa-euro-sign price"></i>{% endif %}</h3>
     {% for d in project.download %}
