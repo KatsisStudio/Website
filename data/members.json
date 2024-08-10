@@ -67,47 +67,51 @@
                 "price": 20
             }]
         }],
-        "tos": [
-            "I do not accept long-term booking or payment schedules on the commission.",
-            "I do not draw armors or overly complex clothing.",
-            "Please do not message me daily asking for progress, it's stressful.",
-            "I do NOT take commission from minors",
-            "Fanart of OCs must be consensual",
-            "There are no refunds once the payment is sent, unless I agree to it.",
-            "Do not recolour/edit my commission without permission.",
-            "I do not accept to make revisions or changes once the final drawing is ready and the commission is done.",
-            "There is a limit of changes/revisions available so make sure you have a clear idea of what you want before requesting it.",
-            "Each commission may take about 1-2 months of work. If you need it before that time we can arrange a rush service for an extra charge.",
-            "Backgrounds and alternatives(Such as clothing or nude) can be added to the commission for an extra price depending on complexity.",
-            "I do not do upscaling, but downscaling is available.",
-            "I can offer a copyright release if needed. When not given, all rights of the artwork remain to me and the artwork may only be used for personal or promotional purposes such as Twitch streaming.",
-            "I have the rights of using the commission for promotional purposes, if you are against this you can let me know and I will not use/show the commission to the public.",
-            "Payment can be done before the sketch or after the sketch has been approved only. I will not begin to finish the artwork if payment has not been delivered.",
-            "Prices and rules are subject to change at any time.",
-            "The price of the commission may increase depending on complexity."
-        ],
-        "faq": [{
-            "question": "What are 'Feedback Changes'",
-            "answer": "In the sketch and colour stage of the commission, I will go and ask you \"Hey, is this okay?\" There you can request a certain amount of changes (depending on your commission type) until you are happy for me to proceed working."
-        }, {
-            "question": "What fetishes/kinks do you draw?",
-            "answer": "I like to consider myself open-minded. I am happy to try and draw any fetish and kink as long as it's legal, respectful and consensual (if applicable)."
-        }, {
-            "question": "I just want to commission you, but I am not clear on what I want",
-            "answer": "Whilst I am very glad that you want to support me, please make sure to come with a set idea before-hand. My services offer turning an idea into something visual rather than coming up with the idea itself. If you still want to support me, you can give me the money as credit for future ideas though ;)"
-        }, {
-            "question": "Can you keep my commission private/anonymous?",
-            "answer": "Yes! I totally respect this, I can post the commission as an anonymous request or refrain from posting it if that makes my client comfortable."
-        }, {
-            "question": "What's your typical commission process?",
-            "answer": "It has 4 stages. Sketch, where I start working on a rough version of the drawing, here you can ask for feedback changes (depending on your commission). Payment, unless it was paid before-hand. Colour, where I set base colours, you can ask me to change them but there is a good chance they change a little during the last stage. Lastly, rendering where I put as much effort as I can into making your piece unique :)"
-        }, {
-            "question": "When will my commission be done roughly?",
-            "answer": "I work on commissions depending on my mood, where this could make your commission take a bit longer, it re-assures that I will put my best effort each time I work on your commission. The quality of my art depends on my mood, which is why I have chosen to work this way. If you require your commission to be done ASAP, you can pay me extra for a rush service where I put your commission as a main priority"
-        }, {
-            "question": "I am confused about something",
-            "answer": "Worry not friend! You can still contact me on DMs to ask me anything else you're confused about <3"
-        }]
+        "tos": {
+            "data": [
+                "I do not accept long-term booking or payment schedules on the commission.",
+                "I do not draw armors or overly complex clothing.",
+                "Please do not message me daily asking for progress, it's stressful.",
+                "I do NOT take commission from minors",
+                "Fanart of OCs must be consensual",
+                "There are no refunds once the payment is sent, unless I agree to it.",
+                "Do not recolour/edit my commission without permission.",
+                "I do not accept to make revisions or changes once the final drawing is ready and the commission is done.",
+                "There is a limit of changes/revisions available so make sure you have a clear idea of what you want before requesting it.",
+                "Each commission may take about 1-2 months of work. If you need it before that time we can arrange a rush service for an extra charge.",
+                "Backgrounds and alternatives(Such as clothing or nude) can be added to the commission for an extra price depending on complexity.",
+                "I do not do upscaling, but downscaling is available.",
+                "I can offer a copyright release if needed. When not given, all rights of the artwork remain to me and the artwork may only be used for personal or promotional purposes such as Twitch streaming.",
+                "I have the rights of using the commission for promotional purposes, if you are against this you can let me know and I will not use/show the commission to the public.",
+                "Payment can be done before the sketch or after the sketch has been approved only. I will not begin to finish the artwork if payment has not been delivered.",
+                "Prices and rules are subject to change at any time.",
+                "The price of the commission may increase depending on complexity."
+            ]
+        },
+        "faq": {
+            "data": [{
+                "question": "What are 'Feedback Changes'",
+                "answer": "In the sketch and colour stage of the commission, I will go and ask you \"Hey, is this okay?\" There you can request a certain amount of changes (depending on your commission type) until you are happy for me to proceed working."
+            }, {
+                "question": "What fetishes/kinks do you draw?",
+                "answer": "I like to consider myself open-minded. I am happy to try and draw any fetish and kink as long as it's legal, respectful and consensual (if applicable)."
+            }, {
+                "question": "I just want to commission you, but I am not clear on what I want",
+                "answer": "Whilst I am very glad that you want to support me, please make sure to come with a set idea before-hand. My services offer turning an idea into something visual rather than coming up with the idea itself. If you still want to support me, you can give me the money as credit for future ideas though ;)"
+            }, {
+                "question": "Can you keep my commission private/anonymous?",
+                "answer": "Yes! I totally respect this, I can post the commission as an anonymous request or refrain from posting it if that makes my client comfortable."
+            }, {
+                "question": "What's your typical commission process?",
+                "answer": "It has 4 stages. Sketch, where I start working on a rough version of the drawing, here you can ask for feedback changes (depending on your commission). Payment, unless it was paid before-hand. Colour, where I set base colours, you can ask me to change them but there is a good chance they change a little during the last stage. Lastly, rendering where I put as much effort as I can into making your piece unique :)"
+            }, {
+                "question": "When will my commission be done roughly?",
+                "answer": "I work on commissions depending on my mood, where this could make your commission take a bit longer, it re-assures that I will put my best effort each time I work on your commission. The quality of my art depends on my mood, which is why I have chosen to work this way. If you require your commission to be done ASAP, you can pay me extra for a rush service where I put your commission as a main priority"
+            }, {
+                "question": "I am confused about something",
+                "answer": "Worry not friend! You can still contact me on DMs to ask me anything else you're confused about <3"
+            }]
+        }
     }
 }, {
     "name": "EnMallas",
@@ -186,7 +190,7 @@
         "device": "$USD",
         "data": [{
             "name": "Full Art",
-            "background": "",
+            "background": "fb112615-e417-4643-8159-b998a3984ece",
             "details": [{
                 "range": "2 Full Bodies",
                 "details": "Includes Simple Background + Feedback Changes including a 10% discount",
@@ -206,7 +210,7 @@
             }]
         }, {
             "name": "Sequences",
-            "background": "",
+            "background": "6748dcb6-a17b-4e87-829c-ace32f2d57d0",
             "details": [{
                 "range": "Tier 1",
                 "details": "2 panels with 1 full body",
@@ -245,9 +249,11 @@
         "devise": null,
         "data": null,
         "tos": null,
-        "faq": [{
-            "question": "Why are platypus mammal depites the fact that they lay eggs",
-            "answer": "Platypus indeed do lay eggs but they also produce milk, they however don't have teats and release their milk through pores in their skins"
-        }]
+        "faq": {
+            "data": [{
+                "question": "Why are platypus mammal depites the fact that they lay eggs",
+                "answer": "Platypus indeed do lay eggs but they also produce milk, they however don't have teats and release their milk through pores in their skins"
+            }]
+        }
     }
 }]
