@@ -25,7 +25,7 @@
         "",
         "NSFW artist & dev with the goal of drawing every fetish."
     ],
-    "role": [ "2D Artist" ],
+    "role": [ "2D Artist", "Katsis co-creator" ],
     "image": "fractal.png",
     "imageLewd": "fractal-lewd.png",
     "socials": [{
@@ -170,15 +170,68 @@
     }],
     "commissions": null
 }, {
-    "name": "Yume",
-    "description": [],
+    "name": "Pauline",
+    "description": [
+        "Bio-Researcher from Lumi investigating the reproductive methods of all creatures in Ebereus with a more hand-on way of working.",
+        "",
+        "NSFW content creator with a focus in pregnancy, but open to try and draw anything <3"
+    ],
     "role": [ "2D Artist" ],
     "image": "yume.png",
     "socials": [{
         "name": "twitter",
         "link": "https://x.com/FragantPauline"
     }],
-    "commissions": null
+    "commissions": {
+        "device": "$USD",
+        "data": [{
+            "name": "Full Art",
+            "background": "",
+            "details": [{
+                "range": "2 Full Bodies",
+                "details": "Includes Simple Background + Feedback Changes including a 10% discount",
+                "price": 135
+            }, {
+                "range": "Full Body",
+                "details": "Includes Simple Background + Feedback Changes",
+                "price": 75
+            }, {
+                "range": "Half Body",
+                "details": "Includes Simple Background + Feedback Changes",
+                "price": 50
+            }, {
+                "range": "Chibi",
+                "details": "Includes Simple Background",
+                "price": 35
+            }]
+        }, {
+            "name": "Sequences",
+            "background": "",
+            "details": [{
+                "range": "Tier 1",
+                "details": "2 panels with 1 full body",
+                "price": 150
+            }, {
+                "range": "Tier 2",
+                "details": "4 panels with 1 full body or 2 panels with 2 full bodies",
+                "price": 250
+            }, {
+                "range": "Tier 3",
+                "details": "6 panels with 1 full body or 4 panels with 2 full bodies",
+                "price": 350
+            }, {
+                "range": "Tier 4",
+                "details": "Anything larger than the previous tier within reason",
+                "price": 500
+            }]
+        }],
+        "tos": {
+            "seealso": "fractal"
+        },
+        "faq": {
+            "seealso": "fractal"
+        }
+    }
 }, {
     "name": "Zirk",
     "description": [],
