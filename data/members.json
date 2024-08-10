@@ -187,7 +187,7 @@
         "link": "https://x.com/FragantPauline"
     }],
     "commissions": {
-        "device": "$USD",
+        "devise": "$USD",
         "data": [{
             "name": "Full Art",
             "background": "fb112615-e417-4643-8159-b998a3984ece",
