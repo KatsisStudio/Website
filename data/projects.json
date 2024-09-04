@@ -287,7 +287,7 @@
         "Pauline",
         "Zirk"
     ]
-} ,{
+}, {
     "name": "Aethra's Hyper Ball",
     "description": "Reach the end goal and collect all the fruits while watching Aethra Expand!",
     "type": "game",
@@ -310,6 +310,33 @@
 
     "members": [
         "Dekakumadon",
+        "Fractal",
+        "SweaterWeather",
+        "Pauline",
+        "Zirk"
+    ]
+}, {
+    "name": "Go-Kurin!",
+    "description": "Struggle or you will be digested!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Other",
+    "contentWarnings": [ "Vore", "Inflation" ],
+
+    "baseFolder": "GoKurin",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/go-kurin"
+    }],
+
+    "members": [
         "Fractal",
         "SweaterWeather",
         "Pauline",

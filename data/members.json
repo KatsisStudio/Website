@@ -137,13 +137,6 @@
     }],
     "commissions": null
 }, {
-    "name": "OniQuits",
-    "description": [],
-    "role": [ "2D Artist", "Programmer" ],
-    "image": "oniquits.png",
-    "socials": [],
-    "commissions": null
-}, {
     "name": "SukeBancho",
     "description": [],
     "role": [ "Writer" ],
@@ -239,7 +232,7 @@
 }, {
     "name": "Zirk",
     "description": [],
-    "role": [ "Programmer" ],
+    "role": [ "Programmer", "Katsis co-creator" ],
     "image": "zirk.png",
     "socials": [{
         "name": "website",
