@@ -342,4 +342,30 @@
         "Pauline",
         "Zirk"
     ]
+}, {
+    "name": "Aethra's Potion Morph",
+    "description": "Use ingredients to find recipes that will change Aethra's body!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Puzzle",
+    "contentWarnings": [ "Pregnancy", "Urine", "Milking", "Breast Growth" ],
+
+    "baseFolder": "PotionMorph",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png", "preview-02.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/aethras-potion-morph"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "Zirk"
+    ]
 }]
