@@ -12,15 +12,15 @@ foreach ($path in $paths) {
 # Projects
 Get-ChildItem "../data/projects/" |
 Foreach-Object {
-    $path = "../img/projects/$($_)"
+    $path = "../img/projects/$($_.Name)"
     if (-not (Test-Path $path)) {
         New-Item -Path $path -ItemType "directory"
     }
-    Push-Location "../data/projects/$($_)"
+    Push-Location "../data/projects/$($_.Name)"
     try
     {
         Write-Output $path
-        magick mogrify -resize 400x300> -path "../../../img/projects/$($_)" *
+        magick mogrify -resize 400x300> -path "../../../img/projects/$($_.Name)" *
     }
     finally
     {

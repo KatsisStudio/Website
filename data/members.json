@@ -10,14 +10,67 @@
     "commissions": null
 }, {
     "name": "Dekakumadon",
-    "description": [],
+    "description": [
+        "An ordinary guy, but somehow not as well.",
+        "A post-apocalyptic survivor? Or maybe just a spoopy kobold? Who knows?",
+        "",
+        "SFW 3D artist and a Twitch Streamer who simply wants to have fun :P"
+    ],
     "role": [ "3D Artist" ],
     "image": "deka.png",
+    "imageLewd": "deka-lewd.png",
     "socials": [{
-        "name": "twitter",
-        "link": "https://x.com/ModelAndSculpts"
+        "name": "twitch",
+        "link": "https://www.twitch.tv/vodeezaku"
     }],
-    "commissions": null
+    "commissions": {
+        "devise": "$USD",
+        "data": [{
+            "name": "3D Models",
+            "background": null,
+            "details": [{
+                "range": "Low Poly Models",
+                "details": null,
+                "price": 20
+            }, {
+                "range": "Mid Poly Models",
+                "details": null,
+                "price": 65
+            }, {
+                "range": "High Poly Models",
+                "details": "Varies depending on complexity",
+                "price": 100
+            }]
+        }, {
+            "name": "Animations",
+            "background": null,
+            "details": [{
+                "range": "Simple Animations",
+                "details": "Walk, Hit, Jump, 5 seconds, Loopable, +$1 for every 2 seconds",
+                "price": 20
+            }, {
+                "range": "Complex Animations",
+                "details": null,
+                "price": -1
+            }]
+        }],
+        "tos": {
+            "data": [
+                "I only accept commissions that are prepared ahead of time through DMs and *negotiating the prices first.*",
+                "I do *not* accept commissions that has *complex clothes and armors.*",
+                "I do not accept commissions from *minors*",
+                "I will only give refunds if the quality of the provided commission is lower than our promised agreement",
+                "You are *allowed to edit the provided piece* I give, but please ask permission if possible.",
+                "For 3D Models, I will *only accept to make changes* of the models I have made *when I want to.*",
+                "Make sure to have a clear idea to the art work you want me to make, and *provide every single details* I should make.",
+                "Please provide me what use you will do for the work I will work on in order to make sure the artwork/model I make works *according to their purpose.*",
+                "Commissions usually take *2 months or less* due to time constraint.",
+                "I have the right to use the models and artworks I have made for *promotional purposes*, but *if you don't consent with this, be sure to let me know* before the commission.",
+                "The prices I provided in my price sheet are *not concrete*, as it is a template for me to use. The *complexity of the artwork will affect the amount of payment for the commission.*"
+            ]
+        },
+        "faq": null
+    }
 }, {
     "name": "Fractal",
     "description": [
