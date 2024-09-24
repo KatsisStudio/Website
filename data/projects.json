@@ -396,4 +396,31 @@
     ],
 
     "source": "katsis"
+}, {
+    "name": "My Wife Is A Cuckquean",
+    "description": "A GB Color ROM about being a house-husband and cucking your wife! Best part is,  she loves it!",
+    "type": "game",
+    "price": "paid",
+
+    "gameGenre": "Adventure",
+    "contentWarnings": [ "Cuckquean", "Gokkun" ],
+
+    "baseFolder": "Cuckquean",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/my-wife-is-a-cuckquean"
+    }],
+
+    "members": [
+        "Fractal",
+        "SweaterWeather",
+        "Pauline",
+        "Zirk"
+    ],
+
+    "source": "katsis"
 }]
