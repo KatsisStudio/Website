@@ -18,7 +18,6 @@ if ($json) {
 } else {
     echo $twig->render("index.html.twig", [
         "projects" => json_decode(file_get_contents("data/projects.json"), true),
-        "members" => json_decode(file_get_contents("data/members.json"), true),
-        "characters" => json_decode(file_get_contents("data/characters.json"), true)
+        "members" => json_decode(file_get_contents("data/members.json"), true)
     ]);
 }
