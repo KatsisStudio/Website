@@ -313,7 +313,28 @@
         "name": "website",
         "link": "https://nehneh.carrd.co/"
     }],
-    "commissions": null
+    "commissions": {
+        "devise": "$USD",
+        "data": [{
+            "name": "Full Art",
+            "background": "8fda096a-fd99-4fce-acd9-5a6e617023a5",
+            "details": [{
+                "range": "Full Body",
+                "details": null,
+                "price": 45
+            }, {
+                "range": "Medium",
+                "details": null,
+                "price": 35
+            }, {
+                "range": "Bust",
+                "details": null,
+                "price": 20
+            }]
+        }],
+        "tos": null,
+        "faq": null
+    }
 }, {
     "name": "ZariLeo",
     "description": [
