@@ -302,4 +302,26 @@
             }]
         }
     }
+}, {
+    "name": "NehNeh",
+    "description": [
+        "i like lewd and coffee"
+    ],
+    "role": [ "2D Artist" ],
+    "image": "nehneh.png",
+    "socials": [{
+        "name": "website",
+        "link": "https://nehneh.carrd.co/"
+    }],
+    "commissions": null
+}, {
+    "name": "ZariLeo",
+    "description": [
+        "geda gedi geda geda go",
+        "Graphic Designer in training"
+    ],
+    "role": [ "Graphic Designer" ],
+    "image": "zarileo.png",
+    "socials": [],
+    "commissions": null
 }]
