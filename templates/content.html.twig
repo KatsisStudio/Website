@@ -30,7 +30,7 @@
     </div>
     <h2>Our Members!</h2>
     <div class="flex" id="members">
-    {% for member in members | sort %}
+    {% for member in members | sort((a, b) => a.name <=> b.name) %}
         <div class="member-info" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
             <h3>{{ member.name }}</h3>
             <a href="https://{{ member.name | replace({' ': ''}) }}.katsis.net">
