@@ -455,7 +455,7 @@
     "source": "katsis"
 }, {
     "name": "My Wife Is A Cuckquean",
-    "description": "A GB Color ROM about being a house-husband and cucking your wife! Best part is,  she loves it!",
+    "description": "A GB Color ROM about being a house-husband and cucking your wife! Best part is, she loves it!",
     "type": "game",
     "price": "paid",
 
@@ -483,6 +483,48 @@
         "Alex",
         "Ashley",
         "Sean"
+    ],
+
+    "source": "katsis"
+}, {
+    "name": "Nano's Lab",
+    "description": "Lambda got trapped in Nano's lab alongside Eta! Help her find clues to unlock all of Nano's secrets and perhaps escape!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "puzzle",
+    "contentWarnings": [],
+
+    "baseFolder": "NanoLab",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/nanos-lab"
+    }],
+
+    "members": [
+        "Dekakumadon",
+        "Fractal",
+        "NehNeh",
+        "SweaterWeather",
+        "Pauline",
+        "Zirk"
+    ],
+
+    "characters": [
+        "Alpha",
+        "Delta",
+        "Epsilon",
+        "Eta",
+        "Gamma",
+        "Lambda",
+        "Nano",
+        "Neru",
+        "Theta",
+        "Zeta"
     ],
 
     "source": "katsis"
