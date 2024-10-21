@@ -492,7 +492,7 @@
     "type": "game",
     "price": "free",
 
-    "gameGenre": "puzzle",
+    "gameGenre": "Puzzle",
     "contentWarnings": [],
 
     "baseFolder": "NanoLab",
@@ -527,5 +527,5 @@
         "Zeta"
     ],
 
-    "source": "katsis"
+    "source": "community"
 }]
