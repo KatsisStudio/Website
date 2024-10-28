@@ -497,7 +497,9 @@
 
     "baseFolder": "NanoLab",
     "preview": "preview.png",
-    "previews": [],
+    "previews": [
+        "preview-01.png", "preview-02.png", "preview-03.png"
+    ],
 
     "download": [],
     "links": [{
@@ -525,6 +527,40 @@
         "Neru",
         "Theta",
         "Zeta"
+    ],
+
+    "source": "community"
+}, {
+    "name": "Sabrina's Oral Lab",
+    "description": "Sabrina found herself a magic portal mask, and her boyfriend will get to have fun with the other side!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Other",
+    "contentWarnings": [],
+
+    "baseFolder": "SabrinasOralLab",
+    "preview": "preview.png",
+    "previews": [
+        "preview-01.png", "preview-02.png"
+    ],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/sabrinas-oral-portal"
+    }],
+
+    "members": [
+        "Fractal",
+        "NehNeh",
+        "Pauline",
+        "Zirk"
+    ],
+
+    "characters": [
+        "Sabrina",
+        "Jack"
     ],
 
     "source": "community"
