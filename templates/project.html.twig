@@ -1,34 +1,10 @@
-<div class="project-info" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
-    <div class="img-container">
-        <a href="{{ project.links[0].content }}">
-            <img src="img/projects/{{ project.baseFolder }}/{{ project.preview }}" class="group-{{ project.source }}"/>
-        </a>
+<div class="cell card" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <img src="img/projects/{{ project.baseFolder }}/{{ project.preview }}"/>
+        </figure>
     </div>
-    <h3>{{ project.name }}{% if project.price == "paid" %}<i class="fa-solid fa-euro-sign price"></i>{% endif %}</h3>
-    {% for d in project.download %}
-    <a href="img/projects/{{ project.baseFolder }}/{{d}}">Download</a>
-    {% endfor %}
-    {% if project.type != "asset" %}
-    <div class="flex tags">
-        <div class="main-type">{{ project.type | title }}</div>
-        {% if project.gameGenre is not null %}
-        <div class="main-genre">{{ project.gameGenre }}</div>
-        {% endif %}
-        {% for warn in project.contentWarnings %}
-        <div class="content-warning">{{ warn }}</div>
-        {% endfor %}
-    </div>
-    {% endif %}
-    {% for link in project.links %}
-        <a href="{{ link.content }}" target="_blank">
-        {% if project.type == "game" or project.type == "gamejam" %}
-            <i class="fa-solid fa-gamepad"></i>
-        {% else %}
-            <i class="fa-solid fa-globe"></i>
-        {% endif %}
-        </a>
-    {% endfor %}
-    <p class="proj-members">
-        By {{ project.members | join(', ') }}
-    </p>
+    <footer class="card-footer">
+        <a href="{{ project.links[0].content }}" class="card-footer-item">Play</a>
+    </footer>
 </div>

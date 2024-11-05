@@ -8,23 +8,15 @@
         <a href="https://discord.gg/NKf98xmp9X" target="_blank"><i class="fab fa-discord"></i></a>
     </section>
     <hr>
-    <section class="section">
-    </section>
 </div>
-    <div id="projects-container">
-        <div class="flex projects" id="project-games">
-        {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam") | reverse %}
-            {% include 'project.html.twig' %}
-        {% endfor %}
-        </div>
-        <div class="flex projects" id="project-assets">
-        {% for project in projects | filter(p => p.type != "game" and p.type != "gamejam") | reverse %}
-            {% include 'project.html.twig' %}
-        {% endfor %}
-        </div>
-    </div>
+<div class="content m-4 grid is-col-min-14">
+    {% for project in projects | filter(p => p.type == "game" or p.type == "gamejam") | reverse %}
+        {% include 'project.html.twig' %}
+    {% endfor %}
+</div>
+<div class="content m-4 grid">
     <h2>Our Members!</h2>
-    <div class="flex" id="members">
+    <div class="is-col-min-14">
     {% for member in members | sort((a, b) => a.name <=> b.name) %}
         <div class="member-info" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
             <h3>{{ member.name }}</h3>
@@ -54,4 +46,5 @@
         </div>
     {% endfor %}
     </div>
+</div>
 {% endblock %}

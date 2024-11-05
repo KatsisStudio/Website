@@ -345,4 +345,14 @@
     "image": "zarileo.png",
     "socials": [],
     "commissions": null
+}, {
+    "name": "Audiet",
+    "description": [],
+    "role": [],
+    "image": "empty.png",
+    "socials": [{
+        "name": "twitter",
+        "link": "https://x.com/toakeaton"
+    }],
+    "commissions": null
 }]
