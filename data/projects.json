@@ -564,4 +564,39 @@
     ],
 
     "source": "community"
+}, {
+    "name": "Niluh's Hypnotism",
+    "description": "Follow the commands! And reach Ecstasy !!!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Other",
+    "contentWarnings": [],
+
+    "baseFolder": "NiluhHypnotism",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/niluhs-hypnotism"
+    }],
+
+    "members": [
+        "Audiet",
+        "Dekakumadon",
+        "Fractal",
+        "NehNeh",
+        "Pauline",
+        "Reiyu GuiGui",
+        "SweaterWeather",
+        "Zirk"
+    ],
+
+    "characters": [
+        "Niluh"
+    ],
+
+    "source": "community"
 }]
