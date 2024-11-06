@@ -355,4 +355,22 @@
         "link": "https://x.com/toakeaton"
     }],
     "commissions": null
+}, {
+    "name": "Reiyu GuiGui",
+    "description": [
+        "Gyaru Ghost Gamer VTuber who enjoys good games and good lewds, ez."
+    ],
+    "role": [ "Voice Actor" ],
+    "image": "reiyuguigui.png",
+    "socials": [{
+        "name": "website",
+        "link": "https://yozorei.live/"
+    }, {
+        "name": "twitter",
+        "link": "https://x.com/reiyuguigui"
+    }, {
+        "name": "twitch",
+        "link": "https://www.twitch.tv/reiyuguigui"
+    }],
+    "commissions": null
 }]
