@@ -14,16 +14,18 @@
         {% include 'project.html.twig' %}
     {% endfor %}
 </div>
-<div class="content m-4 grid">
+<div class="content m-4 has-text-centered">
     <h2>Our Members!</h2>
-    <div class="is-col-min-14">
+    <div class="grid is-col-min-12">
     {% for member in members | sort((a, b) => a.name <=> b.name) %}
-        <div class="member-info" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
-            <h3>{{ member.name }}</h3>
+        <div class="cell" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
+            <p class="title is-4">{{ member.name }}</p>
             <a href="https://{{ member.name | replace({' ': ''}) }}.katsis.net">
-                <img src="img/members/{{ member.image }}" width="100" height="100"/>
+                <figure class="image is-96x96 is-inline-block">
+                    <img class="is-rounded" src="img/members/{{ member.image }}"/>
+                </figure>
             </a>
-            <h4>{{ member.role | join('<br>') | raw }}</h4>
+            <p class="subtitle katsis-members">{{ member.role | join('<br>') | raw }}</p>
             <div class="flex socials">
                 {% for so in member.socials %}
                 {% if so.name == "discord" %}
@@ -36,6 +38,8 @@
                     <i class="fa-brands fa-youtube"></i>
                     {% elseif so.name == "twitch" %}
                     <i class="fa-brands fa-twitch"></i>
+                    {% elseif so.name == "bluesky" %}
+                    <i class="fa-brands fa-bluesky"></i>
                     {% else %}
                     <i class="fa-solid fa-globe"></i>
                     {% endif %}
