@@ -1,4 +1,5 @@
 {% block content %}
+{% include 'banner.html.twig' %}
 <div class="content has-text-centered">
     <section class="section is-size-4">
         We are a group of content creators focused in delivering erotic and creative work. We make games, comics, artwork, blogs and more!<br>
@@ -18,7 +19,7 @@
     <h2>Our Members!</h2>
     <div class="grid is-col-min-12">
     {% for member in members | sort((a, b) => a.name <=> b.name) %}
-        <div class="cell" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
+        <div class="cell member" data-sfw="img/members/{{ member.image }}" data-nsfw="img/members/{{ member.imageLewd ?? member.image }}">
             <p class="title is-4">{{ member.name }}</p>
             <a href="https://{{ member.name | replace({' ': ''}) }}.katsis.net">
                 <figure class="image is-96x96 is-inline-block">
@@ -51,4 +52,5 @@
     {% endfor %}
     </div>
 </div>
+{% include 'footer.html.twig' %}
 {% endblock %}

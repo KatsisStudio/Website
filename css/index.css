@@ -15,3 +15,7 @@ a:hover {
     color: black;
     font-weight: bold;
 }
+
+.project img {
+    object-fit: cover;
+}

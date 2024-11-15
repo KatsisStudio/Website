@@ -1,24 +1,5 @@
 window.addEventListener("load", _ => {
 
-    // PROJECT MENU BUTTONS
-
-    const buttons = document.querySelectorAll("#projects-container > div");
-    for (let i = 1; i < buttons.length; i++)
-    {
-        buttons[i].classList.add("hidden");
-    }
-
-    for (let button of document.querySelectorAll("#projects-menu > button"))
-    {
-        button.addEventListener("click", _ => {
-            for (let b of buttons)
-            {
-                b.classList.add("hidden");
-            }
-            document.getElementById(button.dataset.target).classList.remove("hidden");
-        });
-    }
-
     // PROJECT RENDERING
     let intervalFct;
 
@@ -36,7 +17,7 @@ window.addEventListener("load", _ => {
         displayIndex++;
     }
 
-    for (let project of document.getElementsByClassName("project-info")) {
+    for (let project of document.getElementsByClassName("project")) {
         const previews = project.dataset.previews.split(';').filter(x => x !== "");
 
         if (previews.length > 0) {
@@ -59,7 +40,7 @@ window.addEventListener("load", _ => {
         }
     }
 
-    for (let member of document.getElementsByClassName("member-info")) {
+    for (let member of document.getElementsByClassName("member")) {
         const img = member.querySelector("img");
 
         member.addEventListener("mouseover", _ => {
@@ -67,17 +48,6 @@ window.addEventListener("load", _ => {
         });
         member.addEventListener("mouseout", _ => {
             img.src = member.dataset.sfw;
-        });
-    }
-
-    for (let charac of document.getElementsByClassName("character-info")) {
-        const img = charac.querySelector("img");
-
-        charac.addEventListener("mouseover", _ => {
-            img.src = charac.dataset.nsfw;
-        });
-        charac.addEventListener("mouseout", _ => {
-            img.src = charac.dataset.sfw;
         });
     }
 });
