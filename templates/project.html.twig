@@ -1,10 +1,11 @@
-<div class="cell card" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
+<div class="cell card project" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
     <div class="card-image">
         <figure class="image is-4by3">
             <img src="img/projects/{{ project.baseFolder }}/{{ project.preview }}"/>
         </figure>
     </div>
-    <footer class="card-footer">
-        <a href="{{ project.links[0].content }}" class="card-footer-item">Play</a>
-    </footer>
+    <a href="{{ project.links[0].content }}" class="card-footer-item">
+        <footer class="card-footer"><i class="fa-solid fa-gamepad"></i></footer>
+        {% if project.price != "free" %}<span class="project-price">€</span>{% endif %}
+    </a>
 </div>
