@@ -19,3 +19,8 @@ a:hover {
 .project img {
     object-fit: cover;
 }
+
+#content > .footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
