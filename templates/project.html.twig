@@ -1,4 +1,4 @@
-<div class="cell card project" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
+<div class="cell card project project-{{ project.source }}" data-previews="{{ project.previews | map(x => "img/projects/#{project.baseFolder}/#{x}") | join(';') }}" data-src="img/projects/{{ project.baseFolder }}/{{ project.preview }}">
     <div class="card-image">
         <figure class="image is-4by3">
             <img src="img/projects/{{ project.baseFolder }}/{{ project.preview }}"/>

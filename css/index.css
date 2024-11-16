@@ -24,3 +24,11 @@ a:hover {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+.project-community {
+    box-shadow: 0 0.5em 1em -0.125em rgba(255, 59, 124, 0.1), 0 0px 0 1px rgba(255, 59, 124, 0.02) !important;
+}
+
+.project-katsis {
+    box-shadow: 0 0.5em 1em -0.125em rgba(255, 206, 59, 0.1), 0 0px 0 1px rgba(255, 206, 59, 0.02) !important;
+}
