@@ -376,4 +376,13 @@
         "link": "https://www.twitch.tv/reiyuguigui"
     }],
     "commissions": null
+}, {
+    "name": "Alphapha",
+    "description": [
+        "Alpha, the albino android who is always accompanied by a floating lamb 🐑"
+    ],
+    "role": [ "Writer" ],
+    "image": "empty.png",
+    "socials": [],
+    "commissions": null
 }]
