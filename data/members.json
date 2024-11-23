@@ -335,8 +335,47 @@
                 "price": 20
             }]
         }],
-        "tos": null,
-        "faq": null
+        "tos": {
+            "data": [
+                "I do not draw armors, Mechas or gore.",
+                "I will give weekly messages about progress :DD",
+                "I do NOT take commission from minors.",
+                "There are no refunds once the payment is sent.",
+                "Do not recolour/edit my commission without permission.",
+                "I do not accept to make revisions or changes once the final drawing is ready and the commission is done.",
+                "There is a limit of changes/revisions available so make sure you have a clear idea of what you want before requesting it.",
+                "Each commission may take about 1-2 months of work. If you need it before that time we can arrange a rush service for an extra charge.",
+                "Backgrounds and alternatives(Such as clothing or nude) can be added to the commission for an extra price depending on complexity.",
+                "",
+                "I can offer a copyright release if needed. When not given, all rights of the artwork remain to me and the artwork may only be used for personal or promotional purposes such as Twitch streaming.",
+                "I have the rights of using the commission for promotional purposes, if you are against this you can let me know and I will not use/show the commission to the public.",
+                "Payment can be done before the sketch has been approved. I will not begin to finish the artwork if payment has not been delivered.",
+                "",
+                "The price of the commission may increase depending on complexity.",
+                "In the sketch and colour stage of the commission, I will go and ask you \"Hey, is this okay?\" There you can request a certain amount of changes (depending on your commission type) until you are happy for me to proceed working."
+            ]
+        },
+        "faq": {
+            "data": [{
+                "question": "What fetishes/kinks do you draw?",
+                "answer": "I am happy to try and draw any fetish and kink as long as it's legal, respectful and consensual (if applicable)."
+            }, {
+                "question": "I just want to commission you, but I am not clear on what I want",
+                "answer": "Whilst I am very glad that you want to support me, please make sure to come with a set idea before-hand. My services offer turning an idea into something visual rather than coming up with the idea itself."
+            }, {
+                "question": "Can you keep my commission private/anonymous?",
+                "answer": "Yes! I totally respect this, I can post the commission as an anonymous request or refrain from posting it if that makes my client comfortable."
+            }, {
+                "question": "What's your typical commission process?",
+                "answer": "It has 4 stages.\n1- Sketch, where I start working on a rough version of the drawing, here you can ask for feedback changes (depending on your commission).\n2- Payment, unless it was paid before-hand.\n3- Colour, where I set base colours, you can ask me to change them but there is a good chance they change a little during the last stage. (after this point, changes will cost 10 usd each.)\n4- Rendering in this part I won't be able to make changes, but I'll make sure it's a beautiful piece :3"
+            }, {
+                "question": "When will my commission be done roughly?",
+                "answer": "It will all depend on the complexity of the assignment and the time it takes for the changes to be approved, usually 1 to 2 months if no changes are requested and you will be notified with weekly updates."
+            }, {
+                "question": "I am confused about something",
+                "answer": "Worry not friend! You can still contact me on DMs to ask me anything else you're confused about <3"
+            }]
+        }
     }
 }, {
     "name": "ZariLeo",
@@ -382,7 +421,7 @@
         "Alpha, the albino android who is always accompanied by a floating lamb 🐑"
     ],
     "role": [ "Writer" ],
-    "image": "empty.png",
+    "image": "alphapha.png",
     "socials": [],
     "commissions": null
 }]
