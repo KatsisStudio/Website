@@ -599,4 +599,34 @@
     ],
 
     "source": "community"
+}, {
+    "name": "Aethra's Eggflation 2",
+    "description": "Oviposition and Inflation! Aethra's at it yet again!",
+    "type": "game",
+    "price": "paid",
+
+    "gameGenre": "Puzzle",
+    "contentWarnings": [ "Inflation", "Egg Laying" ],
+
+    "baseFolder": "AethrasEggflation2",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/aethras-eggflation-2"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "Zirk"
+    ],
+
+    "characters": [
+        "Aethra"
+    ],
+
+    "source": "katsis"
 }]
