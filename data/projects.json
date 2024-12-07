@@ -629,4 +629,43 @@
     ],
 
     "source": "katsis"
+}, {
+    "name": "Aethra's Pinball Trap",
+    "description": "Aethra found a pinball machine in a forest... And it resulted to be a trap!",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Arcade",
+    "contentWarnings": [ "Corruption", "Tentacles" ],
+
+    "baseFolder": "AethraPinballTrap",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/aethras-pinball-trap"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "NyxNoctis",
+        "Dekakumadon",
+        "SweaterWeather",
+        "WordedPuppet",
+        "ZariLeo",
+        "Alphapha"
+    ],
+
+    "characters": [
+        "Aethra",
+        "Bella Fractal",
+        "Maki",
+        "Yume",
+        "Diane"
+    ],
+
+    "source": "community"
 }]
