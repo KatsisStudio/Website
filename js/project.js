@@ -17,6 +17,7 @@ window.addEventListener("load", _ => {
         displayIndex++;
     }
 
+    /*
     for (let project of document.getElementsByClassName("project")) {
         const previews = project.dataset.previews.split(';').filter(x => x !== "");
 
@@ -39,6 +40,7 @@ window.addEventListener("load", _ => {
             });
         }
     }
+    */
 
     for (let member of document.getElementsByClassName("member")) {
         const img = member.querySelector("img");

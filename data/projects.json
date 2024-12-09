@@ -668,4 +668,31 @@
     ],
 
     "source": "community"
+}, {
+    "name": "Octavia Chase",
+    "description": "Chase after Octavia in that NSFW battleship roguelike game",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Puzzle",
+    "contentWarnings": [ "Monster girls" ],
+
+    "baseFolder": "OctaviaChase",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://zirk.itch.io/octavia-chase"
+    }],
+
+    "members": [
+        "NehNeh",
+        "Zirk"
+    ],
+
+    "characters": [],
+
+    "source": "community"
 }]

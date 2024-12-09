@@ -78,6 +78,19 @@
         "",
         "NSFW artist & dev with the goal of drawing every fetish."
     ],
+    "info": {
+        "game": [ "The World Ends With You", "Kingdom Hearts", "The Legend of Zelda" ],
+        "food": [ "Karaage", "Prosciutto", "Lemon" ],
+        "color": [ "Dark Blue Grey", "Peach Pink", "Dark Wine Red" ],
+        "water": [ "Costarrican Mountain Water" ],
+        "kink": [ "Tight Clothing (Stockings, Latex, Ect)", "Sexual Creativity", "Voices" ],
+        "song": [
+            { "name": "Orange-Coloured Day by Liana Flores", "link": "WaJzIp9WBeM" },
+            { "name": "My Time by Bo-En", "link": "OkMLYNWP-yo" },
+            { "name": "ST Chroma by Tyler the Creator", "link": "hCcwCv3G1FQ" }
+        ],
+        "software": [ "Clip Studio Paint" ]
+    },
     "role": [ "2D Artist", "Katsis co-creator" ],
     "image": "fractal.png",
     "imageLewd": "fractal-lewd.png",
@@ -226,6 +239,19 @@
         "",
         "NSFW content creator with a focus in pregnancy, but open to try and draw anything <3"
     ],
+    "info": {
+        "game": [ "Ultrakill", "Mortal Kombat", "Monster Hunter" ],
+        "food": [ "Sticky Pork Rice Bowl", "Tonkotsu Ramen", "Nando's Chicken" ],
+        "color": [ "Purple", "Rose", "Black" ],
+        "water": [ "Saka Water" ],
+        "kink": [ "Objectification", "Bellies", "Humiliation" ],
+        "song": [
+            { "name": "Open arms by Epic the musical", "link": "-oMZw8DQbaI" },
+            { "name": "同担☆拒否 feat. ちゅーたん（CV：早見沙織）by HoneyWorks", "link": "FbTtjs6OZ20" },
+            { "name": "Rule #34 by Fish in a Birdcage", "link": "GuvIJHXuJrI" }
+        ],
+        "software": [ "Clip Studio Paint" ]
+    },
     "role": [ "2D Artist" ],
     "image": "yume.png",
     "socials": [{
@@ -284,7 +310,23 @@
     }
 }, {
     "name": "Zirk",
-    "description": [],
+    "description": [
+        "I believe could SFW games benefit of more lewdness, but finding lewd games with a great gameplay is hard",
+        "My main goal is to change that!"
+    ],
+    "info": {
+        "game": [ "Team Fortress 2", "Baldur's Gate 3", "pop'n music" ],
+        "food": [ "Raclette", "Salmon Sashimi", "Trianon" ],
+        "color": [ "Sky blue", "Red", "White" ],
+        "water": [ "Perrier", "Velleminfroy" ],
+        "kink": [ "Futanari", "Monster girls", "Inflation" ],
+        "song": [
+            { "name": "のだ by 大漠波新", "link": "vY8iwpN3GXQ" },
+            { "name": "ディープブルー by キネマ106", "link": "LXjoIE8T-OE" },
+            { "name": "Le Combat Ordinaire by Les Fatals Picards", "link": "VvFWGkz6CF4" }
+        ],
+        "software": [ "Visual Studio", "Visual Studio Code" ]
+    },
     "role": [ "Programmer", "Katsis co-creator" ],
     "image": "zirk.png",
     "socials": [{
@@ -298,18 +340,26 @@
         "devise": null,
         "data": null,
         "tos": null,
-        "faq": {
-            "data": [{
-                "question": "Why are platypus mammal depites the fact that they lay eggs",
-                "answer": "Platypus indeed do lay eggs but they also produce milk, they however don't have teats and release their milk through pores in their skins"
-            }]
-        }
+        "faq": null
     }
 }, {
     "name": "NehNeh",
     "description": [
         "i like lewd and coffee"
     ],
+    "info": {
+        "game": [ "Ragnarok", "Undertale", "Minecraft" ],
+        "food": [ "Sushi", "Lasagna", "Corn" ],
+        "color": [ "Red", "White", "Golden" ],
+        "water": [ "Water from South of Chile" ],
+        "kink": [ "Dominate", "Shibari", "Roleplay" ],
+        "song": [
+            { "name": "Ojala by Beret", "link": null },
+            { "name": "Fontaine Underwater by Hoyoverse", "link": null },
+            { "name": "Mai Hime OST Volume 2 - by Ensei ~Omou Kokoro~", "link": null }
+        ],
+        "software": [ "Clip Studio Paint" ]
+    },
     "role": [ "2D Artist" ],
     "image": "nehneh.png",
     "socials": [{
