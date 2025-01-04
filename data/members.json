@@ -14,8 +14,21 @@
         "An ordinary guy, but somehow not as well.",
         "A post-apocalyptic survivor? Or maybe just a spoopy kobold? Who knows?",
         "",
-        "SFW 3D artist and a Twitch Streamer who simply wants to have fun :P"
+        "NSFW artist & dev with the goal of drawing every fetish."
     ],
+    "info": {
+        "game": [ "Paper Mario: The Thousand Year Door", "Crypt of The Necrodancer" ],
+        "food": [ "Fried Chicken", "Brocolli", "Sweets" ],
+        "color": [ "Orange" ],
+        "water": [ "... Uhh, water? Sorry dunno XD" ],
+        "kink": [ "Hypnosis", "Bondage", "Sense-Deprivation" ],
+        "song": [
+            { "name": "The Crane Wives by Curses", "link": "gEhuGPXxRrA" },
+            { "name": "Itaino Itaino Tondeike by TOOBOE", "link": "6NsBztSGbOw" },
+            { "name": "Broken Heart by Kairiki Bear", "link": "RhJEHIRcx4U" }
+        ],
+        "software": [ "Blender", "Krita" ]
+    },
     "role": [ "3D Artist" ],
     "image": "deka.png",
     "imageLewd": "deka-lewd.png",
@@ -225,6 +238,18 @@
 }, {
     "name": "WordedPuppet",
     "description": [],
+    "info": {
+        "game": [ "Minecraft", "Super Mario", "Touhou" ],
+        "food": [ "Zuppa Toscana" ],
+        "color": [ "Green", "Cyan" ],
+        "water": [ "Ice Water" ],
+        "kink": [ "Femdom", "Pet Play" ],
+        "song": [
+            { "name": "Minutes to Midnight by Linkin Park", "link": null },
+            { "name": "Hawaii: Part II by Miracle Musical", "link": null }
+        ],
+        "software": [ "FL Studio", "Blender", "GameMaker" ]
+    },
     "role": [ "Composer" ],
     "image": "worded.png",
     "socials": [{
@@ -311,7 +336,7 @@
 }, {
     "name": "Zirk",
     "description": [
-        "I believe could SFW games benefit of more lewdness, but finding lewd games with a great gameplay is hard",
+        "I believe SFW games could benefit of more lewdness, but finding lewd games with a great gameplay is hard",
         "My main goal is to change that!"
     ],
     "info": {
@@ -321,8 +346,8 @@
         "water": [ "Perrier", "Velleminfroy" ],
         "kink": [ "Futanari", "Monster girls", "Inflation" ],
         "song": [
-            { "name": "のだ by 大漠波新", "link": "vY8iwpN3GXQ" },
-            { "name": "ディープブルー by キネマ106", "link": "LXjoIE8T-OE" },
+            { "name": "Love me please! by kinoshita", "link": "oTdmlh8VsEs" },
+            { "name": "残響ノ鎮魂歌 by KINEMA106", "link": "LMGMdSMAfYE" },
             { "name": "Le Combat Ordinaire by Les Fatals Picards", "link": "VvFWGkz6CF4" }
         ],
         "software": [ "Visual Studio", "Visual Studio Code" ]
