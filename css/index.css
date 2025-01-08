@@ -32,3 +32,9 @@ a:hover {
 .project-katsis {
     box-shadow: 0 0.5em 1em -0.125em rgba(255, 206, 59, 0.1), 0 0px 0 1px rgba(255, 206, 59, 0.02) !important;
 }
+
+/* https://github.com/jgthms/bulma/issues/2398#issuecomment-471254235 */
+.cell:last-child
+{
+    margin-bottom: 1.5rem;
+}
