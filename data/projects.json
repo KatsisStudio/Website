@@ -695,4 +695,64 @@
     "characters": [],
 
     "source": "community"
+}, {
+    "name": "Tizeria's Temptations",
+    "description": "",
+    "type": "game",
+    "price": "free",
+
+    "gameGenre": "Rhythm",
+    "contentWarnings": [],
+
+    "baseFolder": "TizeriasTemptations",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/tizerias-temptations"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "WordedPuppet",
+        "Zirk"
+    ],
+
+    "characters": [],
+
+    "source": "community"
+}, {
+    "name": "Katsis CumBreak",
+    "description": "",
+    "type": "game",
+    "price": "paid",
+
+    "gameGenre": "Arcade",
+    "contentWarnings": [],
+
+    "baseFolder": "KatsisCumBreak",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/katsis-cumbreak"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "NehNeh",
+        "WordedPuppet",
+        "SweaterWeather",
+        "Zirk"
+    ],
+
+    "characters": [],
+
+    "source": "katsis"
 }]
