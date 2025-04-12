@@ -236,7 +236,7 @@
     }],
     "commissions": null
 }, {
-    "name": "WordedPuppet",
+    "name": "Jay Ari",
     "description": [],
     "info": {
         "game": [ "Minecraft", "Super Mario", "Touhou" ],
@@ -251,7 +251,7 @@
         "software": [ "FL Studio", "Blender", "GameMaker" ]
     },
     "role": [ "Composer" ],
-    "image": "worded.png",
+    "image": "jayari.png",
     "socials": [{
         "name": "youtube",
         "link": "https://www.youtube.com/channel/UCdNHTlWrSTVnbUd9HbWpt9A"
