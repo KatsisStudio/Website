@@ -761,4 +761,80 @@
     ],
 
     "source": "katsis"
+}, {
+    "name": "Pillory Talk",
+    "type": "gamejam",
+    "price": "free",
+
+    "baseFolder": "PilloryTalk",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://sweaterweathergames.itch.io/pillory-talk"
+    }],
+
+    "members": [
+        "SweaterWeather",
+        "Dekakumadon",
+        "Akumu9k",
+        "Jay Ari",
+        "SukeBancho",
+        "OpaluVA"
+    ],
+
+    "characters": [],
+
+    "source": "community"
+}, {
+    "name": "Draco Festival",
+    "type": "gamejam",
+    "price": "free",
+
+    "baseFolder": "DracoFestival",
+    "preview": "preview.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://itch.io/jam/nsfw-minijam-15/rate/3414488"
+    }],
+
+    "members": [
+        "Fractal",
+        "Zirk",
+        "Pauline",
+        "Mari",
+        "Pikklchip"
+    ],
+
+    "characters": [],
+
+    "source": "community"
+}, {
+    "name": "Asher's Bakery",
+    "type": "game",
+    "price": "paid",
+
+    "baseFolder": "AshersBakery",
+    "preview": "preview.jpg",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Steam!",
+        "content": "https://store.steampowered.com/app/3387640/Ashers_Bakery/"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline"
+    ],
+
+    "characters": [],
+
+    "source": "katsis"
 }]
