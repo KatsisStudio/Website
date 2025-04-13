@@ -357,9 +357,6 @@
     "socials": [{
         "name": "website",
         "link": "https://zirk.eu/?s=0"
-    }, {
-        "name": "bluesky",
-        "link": "https://bsky.app/profile/zirk.eu"
     }],
     "commissions": {
         "devise": null,
