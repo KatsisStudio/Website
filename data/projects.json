@@ -831,10 +831,39 @@
 
     "members": [
         "Fractal",
-        "Pauline"
+        "Pauline",
+        "Nyx",
+        "Jay Ari",
+        "Zirk"
     ],
 
     "characters": [],
 
     "source": "katsis"
+}, {
+    "name": "Katsis Boob Bounce",
+    "type": "game",
+    "price": "free",
+
+    "baseFolder": "Others",
+    "preview": "KatsisBoobBounce_thumbnail.png",
+    "previews": [],
+
+    "download": [],
+    "links": [{
+        "name": "Play on Itch!",
+        "content": "https://fractalstella.itch.io/katsis-boob-bounce"
+    }],
+
+    "members": [
+        "Fractal",
+        "Pauline",
+        "Usser",
+        "Lydian",
+        "Mel"
+    ],
+
+    "characters": [],
+
+    "source": "community"
 }]
